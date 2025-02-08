@@ -1,0 +1,27 @@
+@charset "utf-8";
+body{
+	font-family:Verdana, Arial;
+	margin:0;
+}
+h1,h2,h3,h4,h5{
+	font: Bold Verdana, Arial;
+}
+h1 {
+	font-size:24px;
+	font-style:italic;
+	display:block;
+	margin-left:58px;
+	margin-right:122px;
+	width:75%;
+}
+#mainlogo_top_left, #mainlogo_top_right{
+	width:80px;
+}
+#mainlogo_top_center{
+	margin: 0px 80px 0px 80px;
+	width:685px;
+}
+#content_side{
+	padding:5px 2px 5px 2px;
+	width:78px;
+}

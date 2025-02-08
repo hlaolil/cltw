@@ -1,0 +1,370 @@
+@charset "utf-8";
+body{
+	font-family:Verdana, Arial;
+	margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font: Verdana, Arial;
+}
+h1 {
+	font-size:24px;
+	font-style:italic;
+	display:block;
+	margin-left:58px;
+	margin-right:122px;
+	margin-top:8px;
+	padding:8px 5px 10px 5px;
+	text-align:center;
+	vertical-align:middle;
+	width:75%;
+}
+h2 {
+	font-size: 22px;
+	font-style:italic;
+	margin:5px 10px 10px 10px;
+	padding:0;
+}
+h3 {
+	font-size: 19px;
+	font style: bold;
+	margin:0 0 0 30px;
+	padding:0;
+	text-align: left;
+}
+h4 {
+	font:12pt;
+	margin-left:10px;
+	margin-right:10px;
+	padding: 4px;
+	text-align: center;
+}
+h5 {
+	font-size: 16px;
+	font-style: bold;
+	margin:7px 0 0 10px;
+	text-align: left;
+}
+h6 {
+	font-size: 14 pt;
+	font-style: bold;
+	margin:7px 0 0 15px;
+	text-align: left;
+}
+
+a, a:link, a:visited{
+	font-weight:bold;
+}
+
+ul,ol{
+	font-size:14px;
+	margin:10px 10px 10px 30px;
+	padding-left:15px;
+}
+ul ul, ol ul, ul ol, ol ol{
+	margin:10px 10px 10px 10px;
+	padding-left:10px;
+}
+ul{
+	list-style-image:url(../../images/layout/bl_dot.gif);
+}
+ol{
+	list-style-type: decimal;
+	list-style-image:none;
+}
+li{
+	font-size:14px;
+	margin:0px;
+	margin-top:5px;
+	padding-left:0px;
+	text-indent:0px;
+}
+p{
+	font-size:14px;
+	font-weight: normal;
+	margin-top:10px;
+	line-height: 18px;
+}
+#content_side div img{
+	text-align:center;
+	border-width:0px;
+	margin:5px;
+}
+#main_container, #mainlogo_top_center, #image_banner, #content_main,#footer,{
+	border:medium collapse;
+}
+#main_container{
+	border-style:ridge;
+	margin:0 165px 0 165px;
+	padding:0;
+	width:857px;
+}
+#header{
+	border-bottom-style:ridge;
+}
+#mainlogo_top_left, #mainlogo_top_right{
+	background-position:center;
+	background-repeat:no-repeat;
+	height:115px;
+	margin:0;
+	padding:0;
+	width:166px;
+}
+#mainlogo_top_left{
+	float:left;
+}
+#mainlogo_top_right{
+	float:right;
+}
+#mainlogo_top_center{
+	border-left-style:ridge;
+	border-right-style:ridge;	
+	display:block;
+	height:115px;
+	margin: 0px 165px 0px 165px;
+	padding: 0px;
+	text-align:center;
+	width:516px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#image_banner{
+	border-top-style:ridge;
+	border-bottom-style:ridge;
+	height:80px;
+	margin:0;
+	padding:0;
+}
+#navbarh{ /*For when a horizontal navigation bar is needed.*/
+}
+/* Left Navigation bar */
+/* Menu style */
+#navbarv{
+	float:left;
+	font-size:12px;
+	margin:0 auto 0 auto;
+	padding:5px;/* Padding adds to width on here on both sides.*/
+	width:156px;/* Width does not affect colunm width but only the width of the float. To change columns #main_container width needs to be altered. */
+}
+#navbarv a, #navbarv h6 {
+	display: block;
+	margin: 0;
+	padding: 2px 3px;
+}
+#navbarv ul li h6{
+	border-width:0px;
+	display:inline;
+	font-size:16px;
+	font-style:normal;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	text-transform: uppercase;
+}
+#navbarv ul li a,#navbarv ul li a:link,#navbarv ul li a:visited{
+	border-width:thin;
+	border-style:groove;
+	text-decoration:none;
+	padding:5px 0 5px 0;
+}
+#navbarv ul{
+	border-width:0px;
+	list-style:none;
+	margin:0px;
+	padding:10px 0 0 0;
+}
+#navbarv ul li{
+	/*list-style-type:none;*/
+	margin:0px;
+	padding:1px 0 1px 0;
+	text-align:center;
+}
+#navbarv ul li ul{
+	margin-top:4px;
+}
+#navbarv ul li ul li ul li{
+	padding:0;
+}
+/* Sub menu pop out positioning*/
+#navbarv li {
+	display:block;
+	font-weight:bold;
+	margin:6px 6px 6px 6px;
+	padding:2px 5px 2px 8px;
+	text-decoration:none;
+	/* make the list elements a containing block for the nested lists */
+	position: relative;
+}
+#navbarv ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 100%; /* position the elements right of their containing block */
+	width: 100%; /* the width is based on containing block */
+	padding:0;
+	margin:0;
+}
+/* Show and hide sub menues */
+div#navbarv ul ul ul, div#navbarv ul ul li:hover ul ul {
+	display: none;
+}
+div#navbarv ul ul li:hover ul, div#navbarv ul ul ul li:hover ul {
+	display: block;
+}
+/* End nav bar*/
+#content_side{
+	float:right;
+	font-weight:bold;
+	padding:5px 5px 5px 5px;
+	margin:0 auto 0 auto;
+	width:149px;
+}
+#navarrows{
+	display:block;
+	margin:5px auto;
+	text-align:center;
+}
+#content_side p{
+	font-size:9px;
+	padding-left:5px;
+}
+.crb { 
+	font-family: Verdana, Arial;  font-size: 9pt; 
+	text-align: justify; border: 1px solid black;
+	padding: 8px; 
+}
+.just{
+	text-align:justify;
+}
+.note{
+	font-size:12px;
+	margin:5px 12px 5px 10px;
+	line-height:normal;
+}
+#content_main{
+	border-left-style:ridge;
+	padding:10px 5px 15px 5px;
+	margin:0 0 0 165px;
+	min-height:470px;
+	width:675px;
+}
+#content_main a img{
+	margin:10px;
+}
+#content_main table{
+	border:0px;
+	padding: 3px 5px 3px 5px;
+	margin:15px 20px 15px 10px;
+}
+#content_main .contact{
+	display:block;
+	margin: 0 220px 0 220px;
+	border-style:solid;
+	padding: 10px;
+	text-align: center;
+}
+#content_main .block{
+	display:block;
+	font-weight:normal;
+	margin: 3 12px 0 10px;
+	border-style:solid;
+	border-width:thin;
+	padding: 8px 5px 10px 10px;
+}
+#content_main .blockin{
+	display:block;
+	font-weight:normal;
+	margin: 3 32px 0 30px;
+	border-style:solid;
+	border-width:thin;
+	padding: 8px 5px 10px 10px;
+}
+#content_main .example{
+	font-weight:bold;
+	margin: 15px 12px 0px 10px;
+	border-style:solid;
+	border-width:thin;
+	padding: 10px;
+}
+#content_main .exampleindent{
+	text-align:justify;
+	margin: 10px 32px 10px 30px;
+	border-style:solid;
+	border-width:thin;
+	padding: 10px;
+}
+table{
+	font-size:14px;
+}
+blockquote{
+	margin-left:10px;
+}
+.col70, .col66 , .col50 , .col35 , .col33 , .col30, .col25{
+	display:block;
+	margin: 0 3px 0 3px;
+	padding:0px;
+	float:left;
+}
+.col70{
+	width:448px;
+}
+.col66{
+	width:430px;
+}
+.col50{
+	width:321px;/* 3 + 321 + 3 + 3 + 321 + 3 = 642 + 12*/
+}
+.col35{
+	width:224px;
+}
+.col33{
+	width:212px;
+}
+.col30{
+	width:194px;
+}
+.col25{
+	width:157px;
+}
+.col35 p, .col33 p, .col25 p{
+	font-size:10px;
+}
+.multi_list{
+	margin:0 10px 10px 10px;
+}
+.multi_list .col35 p, .multi_list .col33 p, .multi_list .col25 p{
+	font-size:14px;
+}
+#content_main p{
+	margin-left:10px;
+	margin-right:10px;
+}
+#footer{
+	border-top-style:ridge;
+	margin:0px;
+	padding:0 0 0 0;
+}
+#footer a, #footer a:link,#footer a:visited{
+	font-weight:bolder;
+}
+#footer a:hover, #footer a:active{
+	font-weight:bolder;
+}
+#footer_right{
+	float:right;
+	padding:5px; 
+	margin:0 auto 0 auto;
+	width:148px;
+}
+#footer_content{
+	font-size:10px;
+	font-weight:bold;
+	margin:0;
+	padding:5px 5px 5px 5px;
+	text-align:center;
+}
+#footer_right p {
+	font-size: 10px;
+}

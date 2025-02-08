@@ -1,0 +1,184 @@
+@charset "utf-8";
+body{
+	background:#9C825C url(../../images/layout/bgtop.png) repeat-x;
+}
+h1 {
+	background:#5B4D37 url(../../images/layout/lighten.png) repeat-x;
+	color: #FFBA55;
+}
+h2 {
+	color: #154EB7;
+}
+h3 {
+	color: #740909;
+}
+h4 {
+	background:#6495ED url(../../images/layout/lighten.png) repeat-x;
+	color: #FFF;
+}
+h5 {
+	color: #154EB7;
+}
+
+a, a:link, a:visited{
+	color:#FFBA55;
+}
+a:hover, a:active{
+	color:#FFCDCD;
+}
+p .alt1, .crb .alt1, #content_main table .alt1, .alt1{
+	color:#f05000;
+}
+p .alt2, .crb .alt2, #content_main table .alt2, .alt2{
+	color:#086D08;
+}
+p .alt3, .crb .alt3, #content_main table .alt3, .alt3{
+	color:#740909;
+}
+p .alt4, .crb .alt4, #content_main table .alt4, .alt4{
+	color:#093968;
+}
+p .alt5, .crb .alt5, #content_main table .alt5, .alt5{
+	color:#154EB7;
+}
+p .alt, #content_main table .alt, .alt{
+	color:#9933FF;
+}
+.crb .alt{
+	color:#740909;
+}
+#main_container, #mainlogo_top_center, #image_banner, #content_main,#footer,{
+	border:#57728C medium collapse;
+}
+#main_container{
+	color:#000;
+	background-color:#57728C;
+}
+#mainlogo_top_left, #mainlogo_top_right{
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#mainlogo_top_left{
+	background-image: url(../../images/layout/eagleswingcross.jpg);
+}
+#mainlogo_top_right{
+	background-image:url(../../images/layout/CLT_Logo_Colour.png);
+}
+#mainlogo_top_center{
+	background: #CCE3FA url(../../images/layout/cltgoldtext.jpg) no-repeat center center;
+}
+#image_banner{
+	background:#6495ed  url(../../images/layout/picture_banner2.jpg) center no-repeat scroll;
+}
+#navbarh{ /*For when a horizontal navigation bar is needed.*/
+}
+#navbarv{/* This element will float over the space for the column. */
+	color:#FFBA55;
+}
+#navbarv h7{
+	background-color:#57728C;
+	background-position: 0px -999px;
+	color:#FFBA55;
+}
+#navbarv li a,#navbarv li a:link,#navbarv li a:visited{
+	background:#6495ED url(../../images/layout/lighten.png) repeat-x;
+	border:thin #093968;
+	color: #FFF;
+}
+#navbarv li a:hover {
+	color: #093968;
+	background:#CCE3FA url(../../images/layout/darken.png) bottom repeat-x;	
+}
+#navbarv li a:active {
+	color: #FFBA55;
+}
+/* ------------------------------------------
+background:#9C825C; color:#FFEBCD; font-weight:900; background-image:url(../images/layout/lighten.png); background-repeat:repeat-x; */
+
+#navbarv li a.course,#navbarv li a.course:link,#navbarv li a.course:visited{
+	background-color:#9C825C;
+	color: #FFEBCD;
+	font-weight:900;
+}
+#navbarv li a.course:hover {
+	color: #5B4D37;
+	background-color:#FFEBCD;	
+}
+#navbarv li a:active {
+	color: #FFEBCD;
+}
+/* ------------------------------------------*/
+
+#content_side{
+	color:#CCE3FA;
+}
+.crb {
+	background: #FFEBCD; 
+	color: #744809;
+}
+.ref {
+	color: #093968;
+	font-size: 7pt;
+	text-align: center;
+	background: #FFEBCD;
+	padding: 5px;
+	padding-bottom: 7px;
+	border: 1px solid #B22222;
+}
+#content_main{
+	background-color:#F4E8C2;
+}
+#content_main a, #content_main a:link, #content_main a:visited{
+	color:#154EB7;
+}
+#content_main a:hover, #content_main a:active{
+	color: #358ADF;
+}
+#content_main .contact{
+	background-color:#FFEBCD;
+	border-color:#9C825C;
+}
+#content_main .block{
+	background-color:#FFEBCD;
+	border-color:#9C825C;
+	color:#5B4D37;
+}
+#content_main .blockin{
+	background-color:#FFEBCD;
+	border-color:#9C825C;
+	color:#5B4D37;
+}
+#content_main .example{
+	background-color:#DCECFC;
+	border-color:#9C825C;
+	color:#093968;
+}
+#content_main .exampleindent{
+	background-color:#DCECFC;
+	border-color:#9C825C;
+	color:#000;
+}
+#footer{
+	background-image:none;
+}
+#footer a, #footer a:link,#footer a:visited{
+	color:#154EB7;
+}
+#footer a:hover, #footer a:active{
+	color:#744809;
+}
+#footer_content{
+	color:#093968;
+	background-color:#CCE3FA;
+}
+.bg {
+	background: #e7e7e7;
+}
+.bgb {
+	background: #e5f1ff;
+}
+.dbg {
+	background: #d0d0d0;
+}
+#bgb {
+	background: #e5f1ff;

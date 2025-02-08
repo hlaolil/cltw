@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+body{
+	background:#9C825C url(../../images/layout/bgtop.png) repeat-x;
+}
+h1 {
+	background:#5B4D37 url(../../images/layout/lighten.png) repeat-x;
+	color: #FFBA55;
+}
+h2 {
+	color: #086D08;
+}
+h3 {
+	color: #740909;
+}
+h4 {
+	background:#6495ED url(../../images/layout/lighten.png) repeat-x;
+	color: #FFF;
+}
+h5 {
+	color: #154EB7;
+}
+a, a:link, a:visited{
+	color:#FFBA55;
+}
+a:hover, a:active{
+	color:#FFCDCD;
+}
+p .alt1, .crb .alt1{
+	color:#FF6633;
+}
+p .alt2, .crb .alt2{
+	color:#086D08;
+}
+p .alt3, .crb .alt3{
+	color:#CC3300;
+}
+p .alt4, .crb .alt4{
+	color:#FFF;
+}
+p .alt5, .crb .alt5{
+	color:#154EB7;
+}
+p .alt{
+	color:#CC6600;
+}
+.crb .alt{
+	color:#740909;
+}
+#main_container, #mainlogo_top_center, #content_main,#footer{
+	border-color:#57728C;
+}
+#main_container{
+	color:#000;
+	background-color:#57728C;
+}
+#mainlogo_top_left, #mainlogo_top_right{
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#mainlogo_top_left{
+	background-image: url(../../images/layout/eagleswingcross.jpg);
+}
+#mainlogo_top_right{
+	background-image:url(../../images/layout/class.jpg);
+}
+#mainlogo_top_center{
+	background: #CCE3FA url(../../images/layout/cltgoldtext.jpg) no-repeat center center;
+}
+#image_banner{
+	background:#6495ed  url(../../images/layout/picture_banner2.jpg) center no-repeat scroll;
+}
+#navbarh{ /*For when a horizontal navigation bar is needed.*/
+}
+#navbarv{/* This element will float over the space for the column. */
+	color:#FFBA55;
+}
+#navbarv h7{
+	background-color:#57728C;
+	background-position: 0px -999px;
+	color:#FFBA55;
+}
+#navbarv li a,#navbarv li a:link,#navbarv li a:visited{
+	background:#6495ED url(../../images/layout/lighten.png) repeat-x;
+	border:thin #093968;
+	color: #FFF;
+}
+#navbarv li a:hover {
+	color: #093968;
+	background:#CCE3FA url(../../images/layout/darken.png) bottom repeat-x;	
+}
+#navbarv li a:active {
+	color: #FFBA55;
+}
+#content_side{
+	color:#CCE3FA;
+}
+
+.crb {
+	background: #FFEBCD; 
+	color: #744809;
+}
+.bg {
+	background: #e7e7e7;
+}
+.bgb {
+	background: #e5f1ff;
+}
+.dbg {
+	background: #d0d0d0;
+}
+#bgb {
+	background: #e5f1ff;
+}
+#content_main{
+	background-color:#F4E8C2;
+	background-image:url(../../images/layout/tile_backgrounds/lgrey.jpg);
+}
+#content_main a, #content_main a:link, #content_main a:visited{
+	color:#154EB7;
+}
+#content_main a:hover, #content_main a:active{
+	color: #358ADF;
+}
+#content_main .boardmember a, #content_main .boardmember a:link, #content_main .boardmember a:visited{
+	color:#F30;
+}
+#content_main .boardmember a:hover, #content_main .boardmember a:visited{
+	color:#F03;
+}
+#footer{
+	
+	background-image: url(/images/layout/calvarylogotext.png);
+	border-top-style:solid;
+	background:#CCE3FA url(../../images/layout/calvarylogotext.png) 695px 6px no-repeat;
+}
+#footer a, #footer a:link,#footer a:visited{
+	color:#154EB7;
+}
+#footer a:hover, #footer a:active{
+	color:#744809;
+}
+#footer_content{
+	color:#093968;
+}

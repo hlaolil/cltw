@@ -1,0 +1,59 @@
+@charset "utf-8";h1 {
+	color: #FFF;
+	background-color:#58A0E5;
+}
+h2 {
+	color: #154EB7;
+}
+#mainlogo_top_left{
+	background-image: url(../../images/layout/calvarylogonotext.png);
+}
+#mainlogo_top_right{
+	background-image:url(../../images/layout/crosssmall.png);
+}
+#mainlogo_top_center{
+	background: #CCE3FA url(../../images/layout/calvarytext.jpg) no-repeat center center;
+}
+#image_banner{
+	background-image:none;
+	border-top-style:none;
+	border-bottom-style:solid;
+	height:0;
+	margin:0;
+	padding:0;
+}
+#main_container{
+	background-color:#C8D2DD;
+}
+#navbarv{/* This element will float over the space for the column. */
+	color:#FFBA55;
+}
+#navbarv h6{
+	background-position: 0px -999px;
+	color:#093968;
+}
+#navbarv li a,#navbarv li a:link,#navbarv li a:visited{
+	background:#6495ED url(../../images/layout/lighten.png) repeat-x;
+	border:thin #093968;
+	color: #FFF;
+}
+#navbarv li a:hover {
+	color: #093968;
+	background:#CCE3FA url(../../images/layout/darken.png) bottom repeat-x;	
+}
+#navbarv li a:active {
+	color: #FFBA55;
+}
+#content_main{
+	background-color:#F4E8C2;
+	background-image:url(../../images/layout/tile_backgrounds/lgrey.jpg);
+}
+.ref {
+	color: #093968;
+	font-size: 7pt;
+	text-align: center;
+	background: #FFEBCD;
+	padding: 5px;
+	padding-bottom: 7px;
+	border: 1px solid #B22222;
+}

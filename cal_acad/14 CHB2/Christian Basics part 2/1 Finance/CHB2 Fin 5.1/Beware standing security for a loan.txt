@@ -1,0 +1,99 @@
+<h1>
+Beware standing security for a loan
+</h1>
+<p><font color= "blue">
+My son, if you become surety for your friend, if you have shaken hands in pledge for a stranger, (Prov 6:1)</font></p>
+<p>
+Every month, Old Mutual receives notice of about 1 000 cessions against unit trust investments and life and investment policies held by its clients. This is according to the manager of client services at Old Mutual.</p>
+<p>
+What this in effect means is that every month approximately 1 000 Old Mutual clients are giving up their rights to their savings in order to secure a loan for themselves or someone they know.</p>
+<p>
+The case of a 62-year-old domestic worker who recently lost R77 300 – her life’s savings for a house – is a case in point. The cession she signed was open-ended and made her liable for further loans granted to the borrower without her knowledge or consent.</p>
+<p>
+The Ombudsman for Banking Services has warned against such dangerous sureties and says the banks should stop using them.</p>
+<p>
+The Association for Savings & Investment SA (Asisa), cautions consumers against signing surety.
+“Consumers should avoid if at all possible signing as surety for someone else’s debt.”</p>
+<p>
+Very often, people sign surety on the basis of an emotional obligation to a relative or friend, Dempsey says. “That’s a dangerous thing to do. For example, your child is starting a business and you agree to sign surety for his overdraft. Years later, the overdraft is tens of thousands of Rands; your child dies and you’re liable for the debt.”</p>
+<p>
+Sureties are not bad per se. They are one way for credit providers to mitigate risk and to bring down the cost of lending. But it is crucial that you realise the risks you take when signing surety, and understand fully what you’re liable for and for how long.</p>
+<p>
+Many sureties are open-ended, which means they are not limited to a particular debt, nor do they lapse after the debt has been repaid.
+It is easy to forget that you signed a cession or surety ship. The consequences of this can be dire. Once the original loan has been repaid, the borrower could incur debt years later, and if the cession or surety ship has not been cancelled, it stands as security for the new debt.</p>
+<p>
+People assume the cession applies to the capital sum only, but often it includes the interest and all amounts owing.
+“Always make sure that the cession is for one loan and applies to a set Rand amount over a set loan term,”.
+
+With most cessions, if the borrower goes into default, the credit provider can pursue whomever it wants: the borrower or the person who stands surety – also known as the co-principal debtor; it depends on the terms of the cession.
+
+The common law position in respect of surety ship is that the creditor must first proceed against the surety – unless the surety waives his or her right in this regard.</p>
+<h3>
+There are two types of cessions
+</h3>
+<p>
+An out-and-out, or an outright, cession, in terms of which the rights (to the asset) are transferred completely by the cedent to the cessionary; and
+
+A cession in securitatem debiti – or a security cession – in terms of which the cedent retains a reversionary interest in the ceded right. A reversionary interest is any right to ownership at a future date.
+
+With an outright cession, the cessionary becomes the new holder of the right – in essence, the owner. With a security cession, if the debt is repaid, the ceded right reverts to the cedent.</p>
+<p>
+According to Life Insurance in South Africa: A Compendium from the Ombudsman’s Office, a security cession may be said to resemble a pledge of goods.
+
+For example, a policyholder borrows money from a bank. As security for the loan, the policyholder, instead of leaving pledged goods in the hands of the bank until the debt has been fully repaid (failing which the goods can be sold and the proceeds used to meet the debt), cedes to the bank his or her right to the policy benefit.
+
+“The primary intention of the cedent and the cessionary is not that the cessionary will claim the proceeds from the insurer when the time comes to do so, but that he would hold the ceded right for the time being. The loan debt thus becomes a secured debt.”</p>
+<p>
+Until the debt is repaid, “matters are in limbo”. “The policyholder, while remaining the owner of the policy document, cannot claim on it. But neither can the cessionary realise his security. By the same token, the insurer will be at risk if it wrongly makes payment to either the cedent or the cessionary once it has been notified of the security cession.”
+
+Cessions are governed by standard law of contract, rather than an Act. The common law allows the cessionary to claim the proceeds – or “realise the security” – without first obtaining the consent of the cedent or a judgement from a court.
+
+This is recognised as “an issue” and suggest that the cessionary may do so as long as the right of the cedent is not compromised, as in the case of a policy that is sold for a sum covering the debt but for much less than the realistic value of the policy.</p>
+<h3>
+Definitions
+</h3>
+<p><font size="+1">
+Cession </font></p>
+<p>
+The formal giving up of rights, property or territory. To cede is to relinquish your right. The right is transferred from the cedent to the cessionary. The cedent is the person who transfers or gives up his or her right to an asset. The cessionary is the person who receives transfer or cession from the cedent. A security cession or cession in security transfers the right to claim against an asset that was used to secure a loan.</p>
+<p><font size="+1">
+Security</font></p>
+<p>
+Something of value that a creditor or bank can convert to cash if the borrower reneges on a debt. Instead of relying solely on a surety’s signature and promise to cover the debt, a credit provider or bank will often require that the surety provides some form of security – for example, an insurance policy ceded to the credit provider or bank, or a fixed deposit. The credit provider or bank will lay claim to the security if it cannot recover the money from the borrower.</p>
+<p><font size="+1">
+Surety </font></p>
+<p>
+A commitment whereby one person assumes liability for another person’s debt. The surety (the person who takes on the liability) undertakes to pay the debts of the other person (the borrower) should that person fail to meet his or her obligation to a lender, such as a credit provider or bank. If a surety fails to meet his or her obligation when called upon to do so, the lender has the right to sue the surety for the money.</p>
+<p><font size="+1">
+Excussion </font></p>
+<p>
+Which allows you (the surety) to compel the bank or credit provider to take legal steps against the borrower first, and recover all it can from the borrower before pursuing you.
+<p><font size="+1">
+Division</font></p>
+<p>
+Which applies when you share surety ship with one or more people. Division allows you, as a co-surety, to demand that the debt is divided between all sureties and that you be held responsible only for your share of the debt.
+<p><font size="+1">
+Cession of actions </font></p>
+<p>
+Which allows you, if you have to pay the debt on the borrower’s behalf, to demand that the bank or credit provider cedes its rights and any securities held against the borrower to you.
+This gives you the option to sue the borrower for the money or lay claim to any securities that were lodged with the bank. If the bank or credit provider fails to cede these rights, securities and sureties to you, you are released from the liability of the person’s debt for whom you signed surety.
+<h3>
+What happens when you sign a security cession
+</h3>
+<p>
+There is no set legal process that a bank, life assurance company or any financial institution must follow when dealing with a cession, says the manager of client services at Old Mutual.
+However, this is what usually happens when you offer an investment or a policy as a security cession for your own or someone else’s debt:</p>
+<p>
+The cessionary notifies the financial institution of its interest in your investment or policy. The cessionary does this to lay claim to the security (your investment), to prevent you from dis-investing.</p>
+<p>
+The financial institution merely “notes” – in other words, makes a note of – the cessionary’s interest in your investment. The institution does not – and is not required to – register the cession, obtain a hard copy of it or check its validity.</p>
+<p>
+The financial institution may – and usually will – inform you that it has received a security cession against your investment or savings, but it is not legally obliged to do so.</p>
+<p>
+Should the borrower fail to pay back the debt, the cessionary calls in the security.</p>
+<p>
+It is only at this point that the cession itself becomes relevant, and the financial institution may only call for the actual cession document before making payment. There is no need for the institution that notes the cession to be aware of the terms and conditions of the agreement when the cession is noted.</p>
+<p>
+The company that holds your investment or policy is legally bound to abide by the security cession.</p>
+
+ 

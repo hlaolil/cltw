@@ -1,0 +1,52 @@
+  <h1>
+Big Heading &mdash; Few Words H1</h1>
+   <p>We can also start with a smaller font heading when a longer title is required.</p>
+<h2>
+A smaller font heading when its a long title H2</h2>
+<p>
+Then some text follows. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo 
+<b class="alt2">duo dolores et ea rebum alt2</b>: 
+<ul>
+<li>Stet clita kasd gubergren, no sea takimata sanctus est </li>
+<li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, </li>
+<li>consetetur sadipscing elitr, sed diam nonumy eirmod tempor </li></ul>
+<p><b class="alt3">
+Invidunt ut labore et dolore magna aliquyam erat alt3</b>, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+<h3>
+An even smaller font heading when required H3</h3>
+
+    <table width="68%" border="1" cellspacing="0" cellpadding="5" align="center" class="bg">
+      <tbody>
+        <tr class="dbg" align="center">
+          <td>Question</td>
+          <td>Answer</td>
+        </tr>
+        <tr class="bgb">
+          <td>Why am I doing it?</td>
+          <td> Introduction, Significance</td>
+        </tr>
+        <tr>
+          <td>What is known?<br />
+            What is unknown?</td>
+          <td> Review of research<br />
+            Identifying gaps</td>
+        </tr>
+      </tbody>
+    </table>
+<p>
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+<h5>
+An even much smaller font heading when required H5</h5>
+<p class="blockin">
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <b class="alt1">commodo consequat class="alt1"</b>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+<h6>
+This is a heading for a note. H6</h6>
+<p class="note">Note Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+<p><b class="alt5">
+Nam liber tempor cum soluta nobis alt5</b> eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+<h4>
+This is suitable for a new section H4</h4>
+<p class="crb">
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+<p>
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<b class="alt"> At vero eos et accusam et justo duo dolores et ea rebum "alt"</b>. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam ...

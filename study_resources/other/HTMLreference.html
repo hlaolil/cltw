@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Calvary Life Tutors — HTML Quick Reference</title>
+<meta http-equiv="KEYWORDS" content="To know more and experience a deeper life in your spiritual walk with God."/>
+<meta http-equiv="DESCRIPTION" content="Christian Life Training provides an e-learning platform for mentoring Christians in higher education. Learners improve themselves through attaining skills and knowledge relevant to their calling."/>
+<link href="../../css/style_calvary_wide.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div id="main_container">
+  <div id="mainlogo_top_left"></div>
+  <div id="mainlogo_top_right"></div>
+  <div id="mainlogo_top_center"></div>
+  <div class="clearfloat"></div>
+  <div id="navbarv">
+    <ul>
+      <!-- 1 -->
+      <li><a href="AdvancedHTML.html">Back</a></li>
+      <li><a href="../study_resources.html">Menu</a></li>
+      <li><a href="basics1.html">Next</a></li>
+    </ul>
+    <!-- 1 -->
+  </div>
+  <!-- End id="navbarv" -->
+  <div id="content_side">
+        <div id="navarrows"><a href="AdvancedHTML.html"><img src="../../images/layout/back.gif" width="16" height="16" alt="Go back a page" /></a><a href="basics1.html"><img src="../../images/layout/next.gif" width="16" height="16" alt="Go to next page" /></a>
+        </div><!-- End id="navarrows" -->
+    </div><!-- End id="content_side" -->
+  <div id="content_main">
+    <h1>HTML Quick Reference</h1>
+    <p>This is a &quot;quick reference&quot; or index to all elements from the upcoming HTML 3.2 reference. All the elements are listed with a brief description and some notes on syntax. </p>
+    <h2>General syntax</h2>
+    <p> An HTML document consists of text, marked up with <i>elements</i>. An element
+      consists of a start <i>tag</i> with optionally a closing tag. If there
+      is no closing tag, the element is said to be <i>empty</i>. If there is
+      a closing tag, the element is used to mark up its contents in a
+      particular way. Note that in some cases, the closing tag may be omitted
+      as it can be clear from the context where it ends. </p>
+    <p> Elements can have certain <i>attributes</i>, which provide extra
+      information about the enclosed text. These attributes are used on
+      the opening tags, and may not be repeated or added to the closing tag.
+      An attribute consists of a name and (most of the times) a value. This
+      value may always be enclosed in quotes (&quot;), but <em>must</em> be enclosed
+      in quotes if the value contains more than just letters, digits, hyphens
+      and/or periods. </p>
+    <p> For example, <code>&lt;A&nbsp;HREF=&quot;foo/bar.html&quot;&gt;foozlebib&lt;/A&gt;</code> is the
+      HTML markup to turn the text &quot;foozlebib&quot; into a hyperlink to document
+  &quot;foo/bar.html&quot;. The element used here is <a href="x.html">A</a>, with the attribute HREF.
+      The value for HREF is quoted, as it contains the character &quot;/&quot;. </p>
+    <p> <code>&lt;H1&nbsp;ALIGN=CENTER&gt;Welcome!&lt;/H1&gt;</code> marks up
+      the text &quot;Welcome!&quot; as a level one header. The attribute ALIGN here
+      indicates the alignment of this header, in this case centered. As
+      the value consists only of letters, the quotes may be omitted. </p>
+    <p> Tags and attribute names are not case sensitive; attribute values are. </p>
+    <h2>Structure of a document</h2>
+    <p> An HTML document that adheres to HTML 3.2 begins with a so-called <i>DOCTYPE</i> declaration. This is necessary for <a
+href="/links/validators.htm">validators</a> to check the elements you
+      used against the ones in the HTML version you use. The DOCTYPE
+      declaration for HTML 3.2 looks like this:<br />
+    </p>
+    <blockquote><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2//EN&quot;&gt;</code>.</blockquote>
+    <p> Next comes the HTML opening tag. This top-level element contains
+      the head and the body of the document. The head of a document provides
+      information about the document, and the body contains the actual
+      marked up text. </p>
+    <p> An outline of an HTML 3.2 document would be as follows: </p>
+    <blockquote>
+      <pre>
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2//EN&quot;&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+... information about document
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+... document body
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+    </pre>
+    </blockquote>
+    <hr />
+    <h2>Elements for the <u>HEAD</u> of a document</h2>
+    <p> The head section is used to provide information about the document.
+      This can be the title of the document, the name of the author, a
+      short description, and many other things. </p>
+    <dl>
+      <dt><a href="x.html">TITLE</a> - Document title </dt>
+      <dd>This element gives the document's title, which is commonly used in the
+        browser window to identify the document, but also in bookmark files and
+        in search results. This is the only required HTML element. You may only
+        use text and <a href="x.html">entities</a> inside this element.
+        The title should be understandable out of context. </dd>
+      <dt><a href="x.html">META</a> - Meta-information </dt>
+      <dd>This is an empty element, used to provide some information or labels
+        about the document. The information is given with a name and a value.
+        The value is given in the CONTENT attribute, and the name can be given
+        in the HTTP-EQUIV or the NAME attribute. If the HTTP-EQUIV attribute
+        is used instead of NAME, the name/value pair is treated as if it were
+        an HTTP response header. Popular ways to use META:
+        <ul>
+          <li><code>&lt;META NAME=&quot;author&quot; CONTENT=&quot;Your name here&quot;&gt;</code> </li>
+          <li><code>&lt;META NAME=&quot;description&quot; CONTENT=&quot;Describe the document&quot;&gt;</code> </li>
+        </ul>
+      </dd>
+      <dt><a href="x.html">LINK</a> - Site structure </dt>
+      <dd>Not used by many browsers. The LINK element is used to define
+        relationships between this and another document. The other document 
+        is indicated in the HREF attribute, and the relationship in the REL
+        attribute. For a reverse relationship, use REV instead of REL. Popular
+        use:
+        <ul>
+          <li><code>&lt;LINK REV=&quot;made&quot; HREF=&quot;mailto:your@address.here&quot;&gt;</code> </li>
+          <li><code>&lt;LINK REL=&quot;stylesheet&quot; HREF=&quot;/somewhere/something.css&quot;&gt;</code> </li>
+        </ul>
+      </dd>
+      <dt><a href="x.html">ISINDEX</a> - Primitive search </dt>
+      <dd>Used before forms became popular. This tag should be inserted if
+        the document can be searched on the server (for example, if the
+        document is generated with a CGI script). The message in the search
+        window can be specified using the PROMPT attribute. </dd>
+      <dt><a href="x.html">BASE</a> - Location of document </dt>
+      <dd>When you put a document on a server, you can indicate the actual
+        location of the document with the BASE element. The required HREF
+        attribute indicates the actual location. All relative URLs in the
+        document are resolved against this URL. </dd>
+      <dt><a href="x.html">SCRIPT</a> - Inline script </dt>
+      <dd>In HTML 3.2, nothing is done with text inside this element. Certain
+        browsers support scripts, which should be defined in here. </dd>
+      <dt><a href="x.html">STYLE</a> - Style information </dt>
+      <dd>In HTML 3.2, nothing is done with text inside this element. Certain
+        browsers support stylesheets, and style information can be defined
+        inside this element. </dd>
+    </dl>
+    <hr />
+    <h2>Elements for the <a href="x.html">BODY</a> of a document</h2>
+    <p> The body of the document contains the actual text, marked up with
+      HTML elements. The document colors are specified using attributes
+      on the &lt;BODY&gt; tag. These attributes are TEXT (normal text),
+      LINK (unvisited links), VLINK (visited links), BGCOLOR (background
+      color) and ALINK (selected links). They are given a hexadecimal
+      color code, in red-green-blue notation. For example, &quot;#FF0000&quot; is
+      bright red. An image to be used as background can be specified using BACKGROUND.
+      These are all optional, but if one is used, it is recommended that
+      they all are. Otherwise certain selections may conflict with user
+      settings and turn some text unreadable. </p>
+    <p> The text in a document is mainly marked up using <i>block-level
+      elements</i>. Text inside a block-level element is marked up
+      using <i>text-level elements</i>. Certain block-level elements may
+      also contain other block-level elements, or only a restricted set
+      of elements and no text. </p>
+    <dl>
+      <dt>Headers: <a href="./block/h1.html">H1</a>, <a href="./block/h2.html">H2</a>, <a href="./block/h3.html">H3</a>, <a href="./block/h4.html">H4</a>, <a href="./block/h5.html">H5</a> and <a href="./block/h6.html">H6</a>. </dt>
+      <dd> In HTML there are six levels of headers, ranging from level one
+        (most important) to six (least important). They
+        should be used in hierarchical order. The horizontal alignment for each
+        header can be indicated using the ALIGN attribute, which takes values of
+        LEFT, RIGHT and CENTER. </dd>
+      <dt>Paragraphs: <a href="./block/p.html">P</a>. </dt>
+      <dd>Most of the text will be inside paragraphs. These are marked up
+        using the <a href="./block/p.html">P</a> element. The horizontal alignment for a paragraph
+        can be indicated using the ALIGN attribute, which takes values of
+        LEFT, RIGHT and CENTER. The closing tag for paragraphs is optional.
+        Note that a paragraph is a <em>container</em> and <strong>not</strong> an empty tag. </dd>
+      <dt>Block quotations: <a href="./block/blockquote.html">BLOCKQUOTE</a>. </dt>
+      <dd>To indicate a quoted piece of text, use this element.
+        It has no attributes, and may contain paragraphs, headers and
+        other block-level elements. </dd>
+      <dt>Preformatted text: <a href="./block/pre.html">PRE</a> </dt>
+      <dd>Text that is already formatted for a specific width (for example
+        ASCII art) can be marked up using the <a href="./block/pre.html">PRE</a> element. Unlike
+        normally, linebreaks and spaces are rendered as shown. </dd>
+      <dt>Address information: <a href="./block/address.html">ADDRESS</a> </dt>
+      <dd>The <a href="./block/address.html">ADDRESS</a> element is usually placed at the bottom of the
+        document to provide some information to the reader. This can contain
+        the URL of the document, the e-mail address of the author, but
+        also a normal address. </dd>
+      <dt>Divisions: <a href="./block/div.html">DIV</a> </dt>
+      <dd>A division (marked up with <a href="./block/div.html">DIV</a>) encloses a number of block-level
+        elements. It is used to set the default alignment and to group these
+        elements together. It takes the attribute ALIGN with values LEFT,
+        RIGHT and CENTER. <br />
+        &lt;<a href="./block/center.html">CENTER</a>&gt; is a shorthand for <code>&lt;DIV ALIGN=CENTER&gt;</code>. </dd>
+      <dt>Horizontal rules: <a href="./block/hr.html">HR</a> </dt>
+      <dd>The <a href="./block/hr.html">HR</a> element (empty) is used to indicate a break in the document,
+        usually with a horizontal ruler. The appearance of this ruler can
+        be indicated with several attributes. Its width can be set using the
+        WIDTH attribute, with a number in pixels or a (quoted) percentage,
+        its height in pixels is set using the SIZE attribute, and if the width
+        is less than 100%, the alignment can be set with the ALIGN attribute
+        (values of LEFT, RIGHT and CENTER). The NOSHADE attribute draws the
+        rule without a 'shadow'. </dd>
+      <dt>Lists </dt>
+      <dd> HTML knows three major types of lists: ordered, unordered and
+        &quot;definition&quot; lists. The former two differ only in the labeling of
+        each list item; ordered lists are numbered and unordered lists are
+        bulleted.</dd>
+    </dl>
+    <blockquote>
+      <p> An unordered list is indicated with <a href="./list/ul.html">UL</a>, with the optional TYPE
+        attribute. This attribute can be DISC, SQUARE or CIRCLE, and indicates
+        the type of bullet to use. The opening and closing tags are required
+        and UL may only contain LI elements and nothing else. </p>
+      <p> An ordered list is indicated with <a href="./list/ol.html">OL</a>, with the optional TYPE
+        attribute. It can be 1 (decimal), a (lowercase letters), A (uppercase
+        letters), i (lowercase Roman) or I (uppercase Roman). The optional
+        START attribute indicates the starting value for the list. It musta
+        always be given in decimal, regardless of the value in TYPE.
+        The opening and closing tags are required
+        and OL may only contain LI elements and nothing else. </p>
+      <p> Items for both these lists are given with <a href="./list/li.html">LI</a>. A list item may
+        contain other block-level elements. </p>
+      <p> A definition list is similar to an unordered list, except in that
+        it uses two elements per item: <a href="./list/dt.html">DT</a> marks up the term to be
+        defined, and <a href="./list/dd.html">DD</a> provides its definition. These are the only two
+        elements that may appear inside <a href="./list/dl.html">DL</a>. A definition list typically
+        appears without bullets. </p>
+    </blockquote>
+    <hr />
+    <h2>Tables</h2>
+    <p> Tables are used to present tabular information.  In HTML, tables
+      are constructed as a series of rows. Before the first row, the <a href="./table/caption.html">CAPTION</a> element provides a caption for the table. </p>
+    <p> The <a href="./table/table.html">TABLE</a> element takes several attributes: </p>
+    <dl compact="compact">
+      <dt>BORDER=n </dt>
+      <dd>Indicates that a border of n pixels should be drawn around the
+        table. If this attribute is omitted, no border is drawn. </dd>
+      <dt>ALIGN=left|right|center </dt>
+      <dd>Indicates the alignment of the table. In many browsers, ALIGN=CENTER
+        is not supported. This requires that the entire table is enclosed
+        in a <a href="./block/center.html">CENTER</a> element. </dd>
+      <dt>WIDTH=n </dt>
+      <dd>Indicates the suggested width of the table, either a pixel value
+        or a (quoted) percentage. The percentage is recommended, as values in
+        pixels do not take the current window size in account. </dd>
+      <dt>CELLSPACING=n </dt>
+      <dd>The spacing between table cells, in pixels. </dd>
+      <dt>CELLPADDING=n </dt>
+      <dd>The amount of space between a table cell border and its contents,
+        in pixels. </dd>
+    </dl>
+    <p> Rows in a table are marked up using <a href="./table/tr.html">TR</a>. The table row can be used
+      to set the default alignment for all cells in this row: ALIGN=left|right|center
+      for horizontal, and VALIGN=top|middle|bottom|baseline for the vertical alignment.
+      This value can be overridden by individual cells. </p>
+    <p> There are two types of cells: headers (marked up with <a href="./table/th.html">TH</a>) and
+      data cells (marked up with <a href="./table/td.html">TD</a>). They only differ in their
+      appearance, the syntax is the same. Both take the same attributes
+      as TR, as well as several others: </p>
+    <dl>
+      <dt>COLSPAN=n </dt>
+      <dd>Indicates the amount of columns to the right of the current column
+        that this cell overlaps. </dd>
+      <dt>ROWSPAN=n </dt>
+      <dd>Indicates the amount of rows below the the current row
+        that this cell overlaps. </dd>
+      <dt>NOWRAP </dt>
+      <dd>Disable word wrap in this cell. Line breaks must now be inserted
+        manually using <a href="./special/br.html">BR</a>. </dd>
+    </dl>
+    <hr />
+    <h2>Forms</h2>
+    <p> With forms, the user can enter data and send it to a program on
+      the server. This program can then process the data and send a certain
+      request back. The program to process the form, as well as the method
+      to send the data to it, are specified using the <a href="./block/form.html">FORM</a> element. The
+      ACTION attribute indicates the processing script, and the METHOD
+      attribute indicates the method: GET or POST. Forms may not be nested,
+      but you can have multiple forms on a document. </p>
+    <p> There are three elements relevant to forms. </p>
+    <dl>
+      <dt><a href="./form/input.html">INPUT</a> </dt>
+      <dd>This element is used to create a wide range of input elements.
+        It is an empty element, there is no closing tag. In all cases,
+        the NAME attribute is used to assign the input a name. Usually
+        the initial value can be set using the VALUE attribute.
+        <dl>
+          <dt>TYPE=text </dt>
+          <dd>This generates a input field, where the user can enter up to
+            MAXLENGTH characters. The SIZE attribute lists the length of the input
+            field (if the user enters more characters, the text will scroll). The
+            VALUE attribute specifies the initial value for the input field. </dd>
+          <dt>TYPE=password </dt>
+          <dd>Same as TYPE=text, but the text will be hidden by &quot;*&quot; or similar
+            characters. It is still sent in the clear to the server, though. </dd>
+          <dt>TYPE=checkbox </dt>
+          <dd>Produces a checkbox. It has two states, on and off. When it is on
+            when the form is submitted, it will be sent as &quot;name=on&quot;, otherwise
+            it is ignored altogether. If you use CHECKED, it will come up checked
+            (selected) initially. </dd>
+          <dt>TYPE=radio </dt>
+          <dd>Produces a radio button. A radio button always exists in a group.
+            All members of this group should have the same NAME attribute, and
+            different VALUEs. The VALUE of the selected radio button will be sent
+            to the server. You must specify CHECKED on exactly one radio button,
+            which then will come up selected initially. </dd>
+          <dt>TYPE=submit </dt>
+          <dd>Produces a button, which when pressed sends the contents of the
+            form to the server. You can have more than one submit button in the form.
+            Each should have a different NAME. The name and value of the pressed
+            button will be sent to the server as well. The value of the VALUE attribute 
+            is typically used as text on the submit button. </dd>
+          <dt>TYPE=reset </dt>
+          <dd>Also produces a button, which will restore the form to its original
+            state if pressed. The value of the VALUE attribute is typically used as 
+            text on the reset button. </dd>
+          <dt>TYPE=file </dt>
+          <dd>Allows the user to upload a file. It is still very new, so it is
+            not very widely supported. It is typically presented as an input box
+            with a button to start browsing the local hard disk. This way, a user
+            can specify one or more filename(s) to upload. </dd>
+          <dt>TYPE=hidden </dt>
+          <dd>Allows you to embed information in the form which you do not want
+            changed. This can be useful if the document is generated by a script
+            and you need to store state information. NAME and VALUE of this input
+            field will be sent to the server without modifications. </dd>
+          <dt>TYPE=image </dt>
+          <dd>Functions similar to a submit button, but uses an image instead.
+            The ALIGN attribute controls the alignment of the image. The coordinates
+            of the selected region will also be sent to the server, in the form
+            of &quot;NAME.x=<code>n</code>&amp;NAME.y=<code>n</code>&quot;. A text browser will treat it as
+            identical to a normal submit button. </dd>
+        </dl>
+      </dd>
+      <dt><a href="./form/select.html">SELECT</a> </dt>
+      <dd>This defines a selection list, with various options. A list of
+        options (marked up with <a href="./form/option.html">OPTION</a>) is provided inside the list,
+        and one or more of the options can be selected. The SELECT element
+        has the attribute NAME, indicating the name for the selected option,
+        and the optional attribute MULTIPLE, indicating that multiple elements
+        may be selected. The SIZE attribute indicates how many elements should
+        be visible at once.
+        <p> The OPTION element may only contain text, and has
+          the optional attribute VALUE. This is the value returned if this
+          option is selected. If none is provided, the text after OPTION is
+          used. The SELECT attribute indicates that this option should come
+          up pre-selected. </p>
+      </dd>
+      <dt><a href="./form/textarea.html">TEXTAREA</a> </dt>
+      <dd>This element is used to insert a larger input box. The ROWS and
+        COLS attributes indicate the number of rows and columns to be used.
+        The name to return the entered text in is provided with NAME. A
+        default text can be supplied between the opening and closing tags. </dd>
+    </dl>
+    <hr />
+    <h2>Text-level markup</h2>
+    <p> Text-level markup can roughly be divided into three groups: physical
+      markup, logical markup and &quot;special&quot; markup. The first group contains
+      elements that indicate a specific rendering for the enclosed text,
+      the second indicate the logical meaning of the enclosed text, and
+      the third group indicates some &quot;action&quot;. It is recommended that logical
+      elements are used whenever possible, as they adapt better to various
+      viewing environments than physical styles. For example, if boldface
+      is not available, a different way to render emphasized text can be
+      chosen, but only if it is <em>known</em> that this is emphasized text,
+      and not to be rendered bold for some other reason. </p>
+    <h3>Logical markup</h3>
+    <p>None of these elements take any markup. They may be nested and may
+      also contain physical or &quot;special&quot; elements. </p>
+    <ul>
+      <li><a href="./phrase/em.html">EM</a> - Emphasized text. </li>
+      <li><a href="./phrase/strong.html">STRONG</a> - Strongly emphasized text. </li>
+      <li><a href="./phrase/dfn.html">DFN</a> - Defining instance of a term, usually the first time it is
+        used. </li>
+      <li><a href="./phrase/code.html">CODE</a> - A fragment of (computer, HTML, ...) code. </li>
+      <li><a href="./phrase/samp.html">SAMP</a> - Sample text, either input or output. </li>
+      <li><a href="./phrase/kbd.html">KBD</a> - Keyboard input, to be entered by the user. </li>
+      <li><a href="./phrase/var.html">VAR</a> - A variable </li>
+      <li><a href="./phrase/cite.html">CITE</a> - Title of a cited work. There is no way to logically mark
+        up a short citation. </li>
+    </ul>
+    <h3>Physical markup</h3>
+    <p>None of these elements take any markup. They may be nested and may
+      also contain logical or &quot;special&quot; elements. </p>
+    <ul>
+      <li><a href="./font/tt.html">TT</a> - Teletype </li>
+      <li><a href="./font/i.html">I</a> - Italics </li>
+      <li><a href="./font/b.html">B</a> - Bold </li>
+      <li><a href="./font/u.html">U</a> - Underline </li>
+      <li><a href="./font/strike.html">STRIKE</a> - Strikeout </li>
+      <li><a href="./font/big.html">BIG</a> - Larger text </li>
+      <li><a href="./font/small.html">SMALL</a> - Smaller text </li>
+      <li><a href="./font/sub.html">SUB</a> - Subscript </li>
+      <li><a href="./font/sup.html">SUP</a> - Superscript </li>
+    </ul>
+    <h3>&quot;Special&quot; markup</h3>
+    <ul>
+      <li><a href="./special/a.html">A</a> - Hypertext anchor. Attributes are HREF (URL to destination)
+        and NAME (destination in document). Anchors may not be nested. </li>
+      <li><a href="./special/basefont.html">BASEFONT</a> - Default font size. Has a required attribute SIZE
+        which ranges from 1 to 7. </li>
+      <li><a href="./special/img.html">IMG</a> - Image. The required SRC attribute indicates the location
+        of the image (in GIF or JPEG format) to be inserted. The ALIGN attribute
+        (values LEFT, RIGHT, TOP, MIDDLE, BASELINE and BOTTOM) indicate the alignment 
+        of the text after the image. With LEFT and RIGHT the image is placed
+        against that margin, and text flows around it. The WIDTH and HEIGHT
+        attributes indicate the width of the image, in pixels. VSPACE and HSPACE
+        indicate vertical and horizontal whitespace around the image in pixels.
+        The BORDER attribute indicates the thickness of the border around the
+        image when it is inside an anchor. The USEMAP and ISMAP attributes are
+        used to indicate that the image is an clientside/server-side imagemap.
+        See <a href="#usemap">the section on imagemaps</a> for more information.
+        Lastly, the ALT attribute must be used to provide an alternative to the
+        image if the image is not loaded. </li>
+      <li><a href="./special/applet.html">APPLET</a> - Used to insert a Java applet. Parameters are passed
+        to it with the <a href="./special/param.html">PARAM</a> element inside APPLET. This element takes
+        attributes NAME and VALUE for the parameter to pass. You can put all
+        text-level elements inside APPLET. APPLET takes the same attributes
+        as IMG, apart from USEMAP, ISMAP and SRC. The location of the applet
+        is indicated with CODE instead of SRC. </li>
+      <li><a href="./special/font.html">FONT</a> - Font modification. This can be either a font size change,
+        indicated with the SIZE attribute (value can be 1 through 7, or a
+        (quoted) relative change with +n or -n, make sure the resulting value
+        does not exceed 1 to 7), or a font color change, with the COLOR attribute.
+        The value of COLOR is a hexadecimal color code, similar to the
+        colors specified for the document body. </li>
+      <li><a href="./special/br.html">BR</a> - Line break. To ensure that text after a left- or right-
+        aligned image does not appear next to it, use the CLEAR attribute to
+        scroll down until the indicated margin (LEFT, RIGHT or ALL) is clear. </li>
+    </ul>
+    <h3>Client-side imagemaps</h3>
+    <p> An imagemap is an image in which &quot;clicking&quot; in various regions leads
+      you to different URLs. This is done either with a <i>server-side
+        imagemap</i>, which requires that a server examines the location
+      chosen and sends back an URL, or with a <i>client-side imagemap</i> where the browser determines the right location itself. An image
+      becomes a client-side imagemap if the attribute USEMAP=&quot;location_of_map_data&quot;
+      is added. The location must end in #name, where name is the name of
+      the <a href="x.html">MAP</a> element used to provide the data. </p>
+    <p> The MAP element is used to provide the imagemap data. It takes one
+      attribute, NAME, which is the name of the imagemap. It contains a 
+      number of <a href="x.html">AREA</a> elements, which each define one area in the map. </p>
+    <p> An area comes in four different shapes, indicated with the SHAPE
+      attribute. The shapes are RECT (rectangle), CIRCLE (circle), POLY
+      (polygon) and DEFAULT (covers non-specified regions). The coordinates
+      of a shape other than DEFAULT is defined in the COORDS attribute. This
+      attribute takes a comma-separated list of numbers, which make up coordinates.
+      For a rectangle, it is &quot;x1,y1,x2,y2&quot;, for a circle it is &quot;x1,y1,radius&quot;
+      and for a polygon it is &quot;x1,y1,x2,y2,x3,y3,...&quot;. The URL associated
+      with this area is indicated with the HREF attribute. You can also use
+      NOHREF instead of HREF, to indicate that this area leads nowhere. You
+      must supply alternative text in the ALT attribute, which is used to build
+      a list of the areas in a menu.</p>
+    <hr />
+    <h2>HTML comments</h2>
+    <p> HTML <u>comments</u> are provided in a somewhat awkward fashion. The
+      exact syntax is rather complex. In short, use the following rule
+      to embed comments:</p>
+    <dl>
+      <dd>An HTML comment begins with &quot;<code>&lt;!--</code>&quot;, ends with
+        &quot;<code>--&gt;</code>&quot; and does not contain &quot;<code>--</code>&quot; or 
+        &quot;<code>&gt;</code>&quot; anywhere in the comment.</dd>
+    </dl>
+  </div>
+  <!-- End id="content_main" -->
+  <div class="clearfloat"></div>
+  <div id="footer">
+    <!-- End id="footer_right" -->
+    <div id="footer_content">Copyright &copy; Calvary Academics, 1997-2014</div>
+  </div>
+  <!-- End id="footer" -->
+</div>
+<!-- End id="main_container" -->
+</body>
+</html>

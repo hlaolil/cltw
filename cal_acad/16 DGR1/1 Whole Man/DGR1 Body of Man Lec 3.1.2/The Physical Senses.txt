@@ -1,0 +1,80 @@
+<h1>
+The Physical Senses
+</h1>
+<p>
+Humans have a lot more than five senses.  It turns out, there are at least nine senses and most researchers think there are more like twenty-one or so. Just for reference, the commonly held definition of a “sense” is “any system that consists of a group of sensory cell types that respond to a specific physical phenomenon and that corresponds to a particular group of regions within the brain where the signals are received and interpreted.</p>
+<h3>
+The Commonly Held Human Senses
+</h3>
+<p><font size="+1">
+Sight </font></p>
+<p> 
+This technically is two senses given the two distinct types of receptors present, one for colour (cones) and one for brightness (rods).</p>
+<p><font size="+1">
+Taste</font></p>
+<p> 
+This is sometimes argued to be five senses by itself due to the differing types of taste receptors (sweet, salty, sour, bitter, and umami), but generally is just referred to as one sense.  For those who don’t know, umami receptors detect the amino acid glutamate, which is a taste generally found in meat and some artificial flavouring.  The taste sense, unlike sight, is a sense based off of a chemical reaction.</p>
+<p><font size="+1">
+Touch</font></p>
+<p> 
+This has been found to be distinct from pressure, temperature, pain, and even itch sensors.</p>
+<p><font size="+1">
+Pressure</font></p>
+<p> 
+Obvious sense is obvious. ;-)</p>
+<p><font size="+1">
+Itch</font></p>
+<p> 
+Surprisingly, this is a distinct sensor system from other touch-related senses.</p>
+<p><font size="+1">
+Heat and cold (Thermoception)</font></p>
+<p> 
+Ability to sense heat and cold.  This also is thought of as more than one sense.  This is not just because of the two hot/cold receptors, but also because there is a completely different type of thermoceptor, in terms of the mechanism for detection, in the brain.  These thermoceptors in the brain are used for monitoring internal body temperature.</p>
+<p><font size="+1">
+Sound</font></p>
+<p> 
+Detecting vibrations along some medium, such as air or water that is in contact with your ear drums.</p>
+<p><font size="+1">
+Smell</font></p>
+<p> 
+Yet another of the sensors that work off of a chemical reaction.  This sense combines with taste to produce flavours.</p>
+<p><font size="+1">
+Proprioception</font></p>
+<p> 
+This sense gives you the ability to tell where your body parts are, relative to other body parts.  This sense is one of the things police officers test when they pull over someone who they think is driving drunk.  The “close your eyes and touch your nose” test is testing this sense.  This sense is used all the time in little ways, such as when you scratch an itch on your foot, but never once look at your foot to see where your hand is relative to your foot.</p>
+<p><font size="+1">
+Tension Sensors</font></p>
+<p> 
+These are found in such places as your muscles and allow the brain the ability to monitor muscle tension.</p>
+<p><font size="+1">
+Nociception </font></p>
+<p> 
+In a word, pain.  This was once thought to simply be the result of overloading other senses, such as “touch”, but this has been found not to be the case and instead, it is its own unique sensory system.  There are three distinct types of pain receptors: cutaneous (skin), somatic (bones and joints), and visceral (body organs).</p>
+<p><font size="+1">
+Equilibrioception </font></p>
+<p> 
+The sense that allows you to keep your balance and sense body movement in terms of acceleration and directional changes.  This sense also allows for perceiving gravity.  The sensory system for this is found in your inner ears and is called the vestibular labyrinthine system.  Anyone who’s ever had this sense go out on them on occasion knows how important this is.  When it’s not working or malfunctioning, you literally can’t tell up from down and moving from one location to another without aid is nearly impossible.</p>
+<p><font size="+1">
+Stretch Receptors</font></p>
+<p> 
+These are found in such places as the lungs, bladder, stomach, and the gastrointestinal tract.  A type of stretch receptor, that senses dilation of blood vessels, is also often involved in headaches.</p>
+<p><font size="+1">
+Chemoreceptors </font></p>
+<p> 
+These trigger an area of the medulla in the brain that is involved in detecting blood born hormones and drugs.  It also is involved in the vomiting reflex.</p>
+<p><font size="+1">
+Thirst</font></p>
+<p> 
+This system more or less allows your body to monitor its hydration level and so your body knows when it should tell you to drink.</p>
+<p><font size="+1">
+Hunger</font></p>
+<p> 
+This system allows your body to detect when you need to eat something.</p>
+<p><font size="+1">
+Magnetoception </font></p>
+<p> 
+This is the ability to detect magnetic fields, which is principally useful in providing a sense of direction when detecting the Earth’s magnetic field.  Unlike most birds, humans do not have a strong magentoception, however, experiments have demonstrated that we do tend to have some sense of magnetic fields.  The mechanism for this is not completely understood; it is theorised that this has something to do with deposits of ferric iron in our noses.  This would make sense if that is correct as humans who are given magnetic implants have been shown to have a much stronger magnetoception than humans without.</p>
+<p><font size="+1">
+Time</font></p>
+<p> 
+This one is debated as no singular mechanism has been found that allows people to perceive time.  However, experimental data has conclusively shown humans have a startling accurate sense of time, particularly when younger. The mechanism we use for this seems to be a distributed system involving the cerebral cortex, cerebellum, and basal ganglia.  Long term time keeping seems to be monitored by the suprachiasmatic nuclei (responsible for the circadian rhythm).  Short term time keeping is handled by other cell systems.</p>

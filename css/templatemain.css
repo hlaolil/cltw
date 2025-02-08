@@ -1,0 +1,341 @@
+@charset "utf-8";
+@import url("../style6new.css");
+
+body{
+	background-color: #9C825C;
+	background-image:url(../images/layout/bgtop.png);
+	background-repeat:repeat-x;
+	font-family:Verdana, Arial;
+	margin:0 0 0 0;
+}
+h1,h2,h3,h4,h5{
+	font: Bold Verdana, Arial;
+}
+h1 {
+	font-size:24px;
+	font-style:italic;
+	background-color:#5B4D37;
+	background-image:url(../images/layout/lighten.png);
+	background-repeat:repeat-x;
+	color: #FFBA55;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding:4px 5px 10px 5px;
+	text-align:center;
+	vertical-align:middle;
+	width:75%;
+}
+h2 {
+	font-size: 22px;
+	color: #086D08;
+	font-style:italic;
+	margin:0 10px 0 10px;
+	padding:0;
+}
+h3 {
+	font-size: 19px;
+	color: #740909;
+	font style: bold;
+	margin:0 0 0 30px;
+	padding:0;
+	text-align: left;
+}
+h4 {
+	background:#6495ED url(../images/layout/lighten.png) repeat-x;
+	background-color: #6495ED;
+	background-image:url(../images/layout/lighten.png);
+	background-repeat:repeat-x;
+	color: #FFF;
+	font:12pt 900 small-caps;
+	margin-left:10px;
+	margin-right:10px;
+	padding: 4px;
+	text-align: center;
+}
+h5 {
+	color: #154EB7;
+	font-size: 13 pt;
+
+	font style: bold;
+	margin:0 0 0 10px;
+	text-align: left;
+}
+h6{
+	color:#744809;
+	font-size:10pt;
+	font-weight: bold;
+	margin:0 0 0 20px;
+	padding:0;
+}
+a:hover{
+	color:#FFCDCD;
+}
+a:active{
+	color: #FFBA55;
+}
+a, a:link, a:visited{
+	color:#FFBA55;
+	font-weight:bold;
+}
+a:hover{
+	color:#FFCDCD;
+}
+a:active{
+	color: #FFBA55;
+}
+ul,ol{
+	font-size:14px;
+	margin:0 0 0 30px;
+	padding-left:15px;
+}
+ul{
+	list-style:disc;
+}
+ol{
+	list-style-type: decimal;
+}
+li{
+	font-size:14px;
+	margin:0px;
+	padding-left:0px;
+	text-indent:0px;
+}
+p{
+	font-size:14px;
+	font-weight: normal;
+	margin-top:10px;
+}
+p .alt1, .crb .alt1{
+	color:#FFBA55;
+}
+p .alt2, .crb .alt2{
+	color:#086D08;
+}
+p .alt3, .crb .alt3{
+	color:#740909;
+}
+p .alt4, .crb .alt4{
+	color:#FFF;
+}
+p .alt5, .crb .alt5{
+	color:#154EB7;
+}
+p .alt{
+	color:#154EB7
+}
+.crb .alt{
+	color:#740909;
+}
+
+#content_side div img{
+	text-align:center;
+	border-width:0px;
+	margin:5px;
+}
+#main_container, #mainlogo_top_center, #image_banner, #content_main,#footer,{
+	border:#57728C medium collapse;
+}
+#main_container{
+	color:#000;
+	background-color:#57728C;
+	border-style:ridge;
+	margin:0 auto 0 auto;
+	padding:0;
+	width:854px;
+}
+#mainlogo_top_left, #mainlogo_top_right{
+	background-position:center;
+	background-repeat:no-repeat;
+	height:150px;
+	margin:0;
+	padding:0;
+	width:162px;
+}
+#mainlogo_top_left{
+	background-image: url(../images/layout/eagleswingcross.jpg);
+	float:left;
+}
+#mainlogo_top_right{
+	background-image:url(../images/layout/class.jpg);
+	float:right;
+}
+#mainlogo_top_center{
+	background: #CCE3FA url(../images/layout/cltgoldtext.jpg) no-repeat center center;
+	border-left-style:ridge;
+	border-right-style:ridge;
+	display:block;
+	height:150px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	text-align:center;
+	width:520px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#image_banner{
+	background:#6495ed  url(../images/layout/picture_banner2.jpg) center no-repeat scroll;
+	border-top-style:ridge;
+	border-bottom-style:ridge;
+	height:80px;
+	margin:0;
+	padding:0;
+}
+#navbarh{ /*For when a horizontal navigation bar is needed.*/
+}
+#navbarv{/* This element will float over the space for the column. */
+	color:#FFBA55;
+	float:left;
+	font-size:12px;
+	margin:0 auto 0 auto;
+	padding:5px;/* Padding adds to width on here on both sides.*/
+	width:156px;/* Width does not affect colunm width but only the width of the float. To change columns #main_container width needs to be altered. */
+}
+#navbarv h6{
+	background-color:#57728C;
+	background-position: 0px -999px;
+	color:#FFBA55;
+	display:inline;
+	font-size:16px;
+	font-style:normal;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+#navbarv ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+#navbarv ul li{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+#navbarv li a,#navbarv li a:link,#navbarv li a:visited{
+	background:#6495ED url(../images/layout/lighten.png) repeat-x;
+	border:thin #093968;
+	border-style:groove;
+	color: #FFF;
+}
+#navbarv li a{
+	display:block;
+	font-weight:bold;
+	margin:6px 6px 6px 6px;
+	padding:2px 5px 2px 8px;
+	text-decoration:none;
+	width:auto;
+}
+#navbarv li a:hover {
+	color: #093968;
+	background:#CCE3FA url(../images/layout/darken.png) bottom repeat-x;	
+}
+#navbarv li a:active {
+	color: #FFBA55;
+	font-size: 14px;
+}
+#content_side{
+	color:#CCE3FA;
+	float:right;
+	font-weight:bold;
+	padding:5px 5px 5px 5px;
+	margin:0 auto 0 auto;
+	width:144px;
+}
+#navarrows{
+	display:block;
+	margin:5px auto;
+	text-align:center;
+}
+#content_side p{
+	font-size:9px;
+}
+.crb { 
+	font-family: Verdana, Arial;  font-size: 9pt;  color: #744809;
+	text-align: justify;  background: #FFEBCD;  border: 1px solid black;
+	padding: 8px;
+}
+.j{
+	text-align:justify;
+}
+#content_main{
+	background-color:#C0C0C0;
+	border-left-style:ridge;
+	border-right-style:ridge;
+	padding:10px 5px 5px 5px;
+	margin:0 auto 0 auto;
+	min-height:470px;
+	width:506px;
+}
+.col66 , .col50 , .col35 , .col33 , .col25{
+	display:block;
+	margin: 0 3px 0 3px;
+	padding:0px;
+	float:left;
+}
+.col66{
+	width:326px;
+}
+.col50{
+	width:247px;/* 3 + 247 + 3 + 3 + 247 + 3 = 494 + 12*/
+}
+.col35{
+	width:172px;
+}
+.col33{
+	width:162px;
+}
+.col25{
+	width:120px;
+}
+.col35 p, .col33 p, .col25 p{
+	font-size:10px;
+}
+#content_main p{
+	margin-left:10px;
+	margin-right:10px;
+}
+#content_main p.crb{
+	margin-left:20px;
+	margin-right:20px;
+}
+#footer{
+	background-image:url(../images/layout/footerbanner.jpg);
+	background-repeat:no-repeat;
+	background-color:#CCE3FA;
+	background-position: -88px 0px; /* 854 - 783 + 20= 91*/
+	border-top-style:ridge;
+	margin:0px;
+	padding:0 0 0 0;
+}
+#footer a, #footer a:link,#footer a:visited{
+	color:#154EB7;
+	font-weight:bolder;
+}
+#footer a:hover, #footer a:active{
+	color:#744809;
+	font-weight:bolder;
+}
+#footer_right{
+	float:right;
+	padding:5px; 
+	margin:0 auto 0 auto;
+	width:148px;
+}
+#footer_content{
+	color:#093968;
+	font-size:10px;
+	font-weight:bold;
+	margin: 86px 0 0 0;
+	padding:5px 164px 5px 5px;
+	text-align:center;
+}
+#footer_right p {
+	font-size: 10px;
+}

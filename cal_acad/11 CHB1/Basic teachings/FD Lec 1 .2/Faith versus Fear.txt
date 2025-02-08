@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Calvary Life Tutors — Resource Web Pages for the Course</title>
+<meta http-equiv="KEYWORDS" content="To know more and experience a deeper life in your spiritual walk with God."/>
+<meta http-equiv="DESCRIPTION" content="Calvary Life Tutors provide an e-learning platform for mentoring Christians in higher education. Learners improve themselves through attaining skills and knowledge relevant to their calling."/>
+<link href="../../../css/style_calvary_wide.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div id="main_container">
+  <div id="mainlogo_top_left"></div>
+  <div id="mainlogo_top_right"></div>
+  <div id="mainlogo_top_center"></div>
+  <div class="clearfloat"></div>
+  <div id="navbarv">
+    <ul>
+      <!-- 1 -->
+	  	  <br /><br />
+      <li><a href="../../11 CHB1/The_Godhead.html">Theme</a></li>
+      <li><a href="../Godhead 11/lecture.html">Lect</a></li>
+      <li><a href="../Godhead 11/web_list.html">Webs</a></li>
+    </ul>
+    <!-- 1 -->
+  </div>
+  <!-- End id="navbarv" -->
+  <div id="content_side">
+        <div id="navarrows"><a href="web_list.html"><img src="../../../images/layout/back.gif" width="16" height="16" alt="Go to Web List" /></a><a href="lecture.html"><img src="../../../images/layout/next.gif" width="16" height="16" alt="Go to Lecture Menu" /></a>
+        </div><!-- End id="navarrows" -->
+    </div><!-- End id="content_side" -->
+   <div id="content_main"><br />
+   
+<h1>
+Faith versus Fear
+</h1>
+<h3>
+Faith and fear cannot exist together.
+</h3> 
+<p>
+Faith is described in Heb 11 as being <dr class="alt5">"the evidence of things not seen."<br> (Heb 11:1)</dr class="alt5"> It is an absolute belief that God is constantly working behind the scenes in every area of our lives, even when there is no tangible evidence to support that fact. On the other hand, fear, simply stated, is unbelief or weak belief. As unbelief gains the upper hand in our thoughts, fear takes hold of our emotions. Our deliverance from fear and worry is based on faith, which is the very opposite of unbelief.</p>
+<p> 
+We need to understand that faith is not something that we can produce in ourselves. Faith<dr class="alt5"> is the gift of God (Eph 2:8-9)</dr class="alt5"> and is described as <dr class="alt5"> the fruit of the Spirit which is love, joy, peace, long suffering, kindness, goodness, faithfulness, <br>(Gal 5:22)</dr class="alt5">.<br> The Christian's faith is a confident assurance in a God who loves us, who knows our thoughts and cares about our deepest needs. That faith continues to grow as we study the Bible and learn the attributes of His amazing character. The more we learn about God, the more we can see Him working in our lives and the stronger our faith grows.</p>
+<p>
+A growing faith is what we desire to have and what God desires to produce in us. But how, in day-to-day life, can we develop a faith that conquers our fears? The Bible says, <dr class="alt5">"So then faith comes by hearing, and hearing by the word of God" (Rom 10:17).</dr class="alt5"> The careful study of God's Word is of primary importance in developing a strong faith. God wants us to know Him and completely rely on His direction in our lives.<br> It's through the hearing, reading and meditation in the Scriptures that we begin to experience a strong, confident faith that excludes worry and fear. Spending time in prayer and quiet worship develops a relationship with our heavenly Father that sees us through even the darkest of nights. In the Psalms we see a picture of David, who, like us, experienced times of fear. Psa 56:3 reveals his faith with these words:<dr class="alt5"> "When I am afraid, I will trust in you."</dr class="alt5"><br> Psa 119 is filled with verses expressing the way in which David treasured God's Word: <dr class="alt5"><br>"With my whole heart I have sought You" (Psa 119:10)<br></dr class="alt5"> <dr class="alt5">"I meditate on your precepts" (Psa 119:15)</dr class="alt5"> <br> <dr class="alt5">"I have hidden your word in my heart" (Psa 119:11)</dr class="alt5">.</p><p> These are revealing words which speak wisdom to us today.</p>
+<h3>
+Our weaknesses
+</h3>
+<p>
+God is kind and understanding toward our weaknesses, but He requires us to go forward in faith, and the Bible is clear that faith does not mature and strengthen without trials. Adversity is God's most effective tool to develop a strong faith. That pattern is evident in Scripture. God takes each one of us through fearful situations, and as we learn to obey God's Word and allow it to saturate our thoughts, we find each trial becomes a stepping stone to a stronger and deeper faith. It gives us that ability to say, "He sustained me in the past, He'll carry me through today and He'll uphold me in the future!"<br> God worked this way in David's life. When David volunteered to fight against Goliath, he said, <dr class="alt5">"The Lord who delivered me from the paw of the lion and the paw of the bear will deliver me from the hand of this Philistine" (1 Sam 17:37)</dr class="alt5">. David knew the God who had sustained him through dangerous situations in the past. He had seen and experienced God's power and protection in his life, and this developed within him a fearless faith.</p>
+<h3>
+The Promises of God
+</h3>
+<p>
+The Word of God is rich with promises for us to take hold of and claim for ourselves.<br> When we face financial trouble, Phil 4 tells us, <dr class="alt5">"And my God shall supply all your need according to His riches in glory by Christ Jesus." (Phil 4:19)</dr class="alt5">  <br>If we are anxious about a future decision, Psa 32 reminds us that God will <dr class="alt5">"instruct you and teach you in the way you should go; I will guide you with My eye." (Psa 32:8)</dr class="alt5"> <br>In sickness we can remember that Rom 5 says, <dr class="alt5">"Tribulation works patience. ("Rom 5:3)</dr class="alt5"> <br>If someone turns against us, we can be comforted by the words in Rom 8,<dr class="alt5"> "If God is for us who can be against us!" (Rom 8:31)</dr class="alt5"></p> 
+<p>Throughout life we will continue to face various trials that would cause us fear, but God assures us that we can know a calm peace through every situation,<dr class="alt5"> "and the peace of God, which surpasses all understanding, will guard your hearts and minds through Christ Jesus" (Phil 4:7).</dr class="alt5"></p>
+   
+</div>
+  <!-- End id="content_main" -->
+  <div class="clearfloat"></div>
+  <div id="footer">
+    <!-- End id="footer_right" -->
+    <div id="footer_content">Copyright &copy; Calvary Academics, 1997-2014</div>
+  </div>
+  <!-- End id="footer" -->
+</div>
+<!-- End id="main_container" -->
+</body>
+</html>

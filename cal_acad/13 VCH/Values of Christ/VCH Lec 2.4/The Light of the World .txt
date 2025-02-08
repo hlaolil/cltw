@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Calvary Life Tutors — Resource Web Pages for the Course</title>
+<meta http-equiv="KEYWORDS" content="To know more and experience a deeper life in your spiritual walk with God."/>
+<meta http-equiv="DESCRIPTION" content="Calvary Life Tutors provide an e-learning platform for mentoring Christians in higher education. Learners improve themselves through attaining skills and knowledge relevant to their calling."/>
+<link href="../../../css/style_calvary_wide.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div id="main_container">
+  <div id="mainlogo_top_left"></div>
+  <div id="mainlogo_top_right"></div>
+  <div id="mainlogo_top_center"></div>
+  <div class="clearfloat"></div>
+  <div id="navbarv">
+    <ul>
+      <!-- 1 -->
+	  	  <br /><br />
+      <li><a href="../../11 CHB1/The_Godhead.html">Theme</a></li>
+      <li><a href="../Godhead 11/lecture.html">Lect</a></li>
+      <li><a href="../Godhead 11/web_list.html">Webs</a></li>
+    </ul>
+    <!-- 1 -->
+  </div>
+  <!-- End id="navbarv" -->
+  <div id="content_side">
+        <div id="navarrows"><a href="web_list.html"><img src="../../../images/layout/back.gif" width="16" height="16" alt="Go to Web List" /></a><a href="lecture.html"><img src="../../../images/layout/next.gif" width="16" height="16" alt="Go to Lecture Menu" /></a>
+        </div><!-- End id="navarrows" -->
+    </div><!-- End id="content_side" -->
+   <div id="content_main"><br />
+   
+   <h1>
+The Light of the World 
+</h1>
+<p><font color= "blue">
+“You are the light of the world. A city that is set on a hill cannot be hidden. <br>(Matt 5:14)</font></p>
+<p><font color= "blue">
+Nor do they light a lamp and put it under a basket, but on a lamp stand, and it gives light to all who are in the house." (Matt 5:15)</font></p>
+<p>
+In explaining the concept of making one's witness clear, Jesus says a city set on a hill cannot be hidden. Cities were usually situated on hilltops for protection against attack. It is much more difficult to storm a walled city running uphill, and defenders have always known that victory must be claimed by capturing and holding the high ground. Jesus' point, however, is not a city's defence, but its visibility because of its elevated position.</p>
+<p>
+In the same way, He continues, a lamp stand would elevate the lamp for greatest illumination within a room. He contrasts elevating a lamp on a lamp stand to putting it under a basket. People don't light a lamp to hide its light under a basket, Jesus says. That's silly! Rather people light a lamp in order to shed light to everyone in the house.
+<h3>
+Evoking praise towards God 
+</h3>
+<p><font color= "blue">
+"Let your light so shine before men, that they may see your good works and glorify your Father in heaven." (Matt 5:16)</font><br>
+Now Jesus comes to the point: letting people see your good works rather than hiding them. And here is the reason for a Christian's witness: "that they [men] may see your good works and glorify your Father in heaven."</p>
+<p>
+Both salt and light are worthless if they are saltless or hidden from view.<br> Jesus gives these parables right after a discussion of persecution. <br>So we must be willing to bear our witness, even though it may bring persecution.<br> Indeed, Paul says, <font color= "blue">"Yes, and all who desire to live godly in Christ Jesus will suffer persecution." (2 Tim 3:12)</font>. It comes with the territory.</p>
+<p>
+They persecuted our Lord and Master, Jesus Christ. If our lives are becoming more and more like Him it shouldn't surprise us if we are persecuted, too. <br>And persecution should bring us joy, says Jesus,<br> <font color= "blue">"for so they persecuted the prophets who were before you." (Matt 5:12)</font>. <br>Persecution means that people see enough of Jesus in us to be worth resisting and persecuting, so we should count it as a badge of honour, and the portent of a great reward in heaven.</p>
+<p>
+But our purpose in witness is never to stimulate persecution for the sake of reward. That would be essentially selfish. Rather it is to let our light shine so clearly that people can see God clearly in our works and in our deeds, and evoke praise to Him.</p>
+<h3>
+Words versus deeds
+</h3>
+<p>
+Sometimes people place a false dichotomy between words and deeds.<br> "I testify to my faith in God by the way I live," some say defiantly. Or "I don't have to say anything."</p>
+<p>
+I agree that we must live lives that bring credit upon Jesus or our words won't be taken seriously. They will be laughed at as hypocrisy and thrown back in our face, and become a cause of greater unbelief on the part of those who watch us.
+But deeds without words tell only half the story. <br>Part of it is telling the good news to those around us:<br> <font color= "blue">"And the Word became flesh and dwelt among us, and we beheld His glory, the glory as of the only begotten of the Father, full of grace and truth." (John 1:14)</font>. Why is Jesus called "The Word"? Because He was the expression of His Father, and spoke the words His Father gave Him to speak.</p>
+<p>
+Our witness must consist of both deeds and words that point to God the Father and bring glory to Him. What a privilege we have to be the agents of evoking praise to our Father in heaven!</p>
+<h3>
+A light to the nations
+</h3>
+<p>
+Through the prophet Isaiah, God begins to delineate the role and ministry of His people and servant Israel, and their embodiment in His Servant the Messiah.</p>
+<p><font color= "blue">
+"Indeed He says, "It is too small a thing that You should be My Servant
+to raise up the tribes of Jacob, and to restore the preserved ones of Israel;
+I will also give You as a light to the Gentiles, that You should be My salvation to the ends of the earth." (Isa 49:6)</font></p>
+<p>
+<font color= "blue">"Listen to Me, My people; and give ear to Me, O My nation: for law will proceed from Me, and I will make My justice rest as a light of the peoples." (Isa 51:4)</font></p>
+<p>
+<font color= "blue">"Arise, shine; for your light has come! and the glory of the Lord is risen upon you. For behold, the darkness shall cover the earth, and deep darkness the people; but the Lord will arise over you, and His glory will be seen upon you. The Gentiles shall come to your light, and kings to the brightness of your rising." (Isa 60:1-3)</font>.</p>
+<p>
+Where once this commission was given to the nation of Israel, it is now passed on to the citizens of the Kingdom of God as our commission, too (Acts 1:8).<br> As Jesus once said,<font color= "blue"> "I AM the light of the world" (John 9:5)</font>, now He says to all of us,<font color= "blue"> "You are the light of the world ... Arise, shine, for your light has come, and the glory of the Lord is risen upon you." (Matt 5:14 with Isa 60:1)</font>. <br>We are to be the light for the world -- to the glory of God!</p>
+<h3>
+Prayer
+</h3>
+<p>
+Father, You are indeed worthy and deserving of a people who are fully committed to You and unafraid to say so. Forgive us for sometimes hiding our commitment to You in order to avoid unpleasantness from unbelievers.<br> Help us to be unashamedly the light in your world, until You return with the full uncompromising brilliance of Your Coming. In Jesus' name, we pray. Amen.</p>
+
+
+
+
+
+
+
+
+<p><center><img src="../../../images/content/Adobe-Photoshop-Old-icon.png" width="30" height="30" hspace="25" vspace="0" border="0" align=""alt="><center> </p>
+
+
+
+</div>
+  <!-- End id="content_main" -->
+  <div class="clearfloat"></div>
+  <div id="footer">
+    <!-- End id="footer_right" -->
+    <div id="footer_content">Copyright &copy; Calvary Academics, 1997-2014</div>
+  </div>
+  <!-- End id="footer" -->
+</div>
+<!-- End id="main_container" -->
+</body>
+</html>

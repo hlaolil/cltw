@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Calvary Life Tutors — Getting Started with HTML</title>
+<meta http-equiv="KEYWORDS" content="To know more and experience a deeper life in your spiritual walk with God."/>
+<meta http-equiv="DESCRIPTION" content="Christian Life Training provides an e-learning platform for mentoring Christians in higher education. Learners improve themselves through attaining skills and knowledge relevant to their calling."/>
+<link href="../../css/style_calvary_wide.css" rel="stylesheet" type="text/css" >
+<style type="text/css">
+<!--
+pre.template { font-family: "Courier New", "Courier", monospace;
+ white-space: pre;
+ border-style: solid;
+ border-width: thin;
+ border-color: #006600;
+ color: black;
+ padding: 0.5em; }
+#p9 {font-size: 9pt }
+-->
+</style>
+</head>
+<body>
+<div id="main_container">
+  <div id="mainlogo_top_left"></div>
+  <div id="mainlogo_top_right"></div>
+  <div id="mainlogo_top_center"></div>
+  <div class="clearfloat"></div>
+  <div id="navbarv">
+    <ul>
+      <!-- 1 -->
+      <li><a href="vocabulary.html">Back</a></li>
+      <li><a href="../study_resources.html">Menu</a></li>
+      <li><a href="HTMLstyles.html">Next</a></li>
+    </ul>
+    <!-- 1 -->
+  </div>
+  <!-- End id="navbarv" -->
+  <div id="content_side">
+        <div id="navarrows"><a href="vocabulary.html"><img src="../../images/layout/back.gif" width="16" height="16" alt="Go back a page" /></a><a href="HTMLstyles.html"><img src="../../images/layout/next.gif" width="16" height="16" alt="Go to next page" /></a>
+        </div><!-- End id="navarrows" -->
+    </div><!-- End id="content_side" -->
+  <div id="content_main">
+    <h1>Getting started with HTML</h1>
+    <p><em><a href="http://www.w3.org/People/Raggett">Dave Raggett</a></em>, <font size="-2">revised 24 May 2005.</font></p>
+    <p>This is a short introduction to writing HTML. What is HTML? It is a special kind of text document that is used by Web browsers to present text and graphics. The text includes markup tags such as &lt;p&gt; to indicate the start of a paragraph, and &lt;/p&gt; to indicate the end of a paragraph. HTML documents are often refered to as &quot;Web pages&quot;. The browser retrieves Web pages from Web servers that thanks to the Internet, can be pretty much anywhere in World.</p>
+    <p>Many people still write HTML by hand using tools such as NotePad on Windows, or TextEdit on the Mac. This guide will get you up and running. Even if you don't intend to edit HTML directly and instead plan to use an HTML editor such as Netscape Composer, or W3C's Amaya, this guide will enable you to understand enough to make better use of such tools and how to make your HTML documents accessible on a wide range of browsers. Once you are comfortable with the basics of authoring HTML, you may want to learn how to <a href="HTMLstyles.html"> add a touch of style</a> using CSS, and to go on to try out features covered in my page on <a href="AdvancedHTML.html">advanced HTML</a></p>
+    <p id="p9"><i>p.s.</i> a good way to learn is to look at how other people have coded their html pages. To do this, click on the &quot;View&quot; menu and then on &quot;Source&quot;. On some browsers, you instead need to click on the &quot;File&quot; menu and then on &quot;View Source&quot;. Try it with this page to see how I have applied the ideas I explain below. You will find yourself developing a critical eye as many pages look rather a mess under the hood!</p>
+    <p>For Mac users, before you can save a file with the &quot;.html&quot; extension, you will need to ensure that your document is formatted as plain text. For TextEdit, you can set this with the &quot;Format&quot; menu's  &quot;Make Plain Text&quot; option.</p>
+    <p>This page will teach you how to:</p>
+    <ul>
+      <li>start with a title</li>
+      <li>add headings and paragraphs</li>
+      <li>add emphasis to your text</li>
+      <li>add images</li>
+      <li>add links to other pages</li>
+      <li>use various kinds of lists</li>
+    </ul>
+    <p>If you are looking for something else, try the <a href="AdvancedHTML.html">advanced HTML</a> page.</p>
+    <h2>Start with a title</h2>
+    <p>Every HTML document needs a title. Here is what you need to type:</p>
+    <pre>&lt;title&gt;My first HTML document&lt;/title&gt;</pre>
+    <p>Change the text from &quot;My first HTML document&quot; to suit your own needs. The title text is preceded by the start tag &lt;title&gt; and ends with the matching end tag &lt;/title&gt;. The title should be placed at the beginning of your document.</p>
+    <p>To try this out, type the above into a text editor and save the file as &quot;test.html&quot;, then view the file in a web browser. If the file extension is &quot;.html&quot; or &quot;.htm&quot; then the browser will recognize it as HTML. Most browsers show the title in the window caption bar. With just a title, the browser will show a blank page. Don't worry. The next section will show how to add displayable content.</p>
+    <h2>Add headings and paragraphs</h2>
+    <p>If you have used Microsoft Word, you will be familiar with the built in styles for headings of differing importance. In HTML there are six levels of headings. H1 is the most important, H2 is slightly less important, and so on down to H6, the least important.</p>
+    <p>Here is how to add an important heading:</p>
+    <pre>&lt;h1&gt;An important heading&lt;/h1&gt;</pre>
+    <p>and here is a slightly less important heading:</p>
+    <pre>&lt;h2&gt;A slightly less important heading&lt;/h2&gt;</pre>
+    <p>Each paragraph you write should start with a &lt;p&gt; tag. The &lt;/p&gt; is optional, unlike the end tags for elements like headings. For example:</p>
+    <pre>&lt;p&gt;This is the first paragraph.&lt;/p&gt;
+&lt;p&gt;This is the second paragraph.&lt;/p&gt;</pre>
+    <h2>Adding a bit of emphasis</h2>
+    <p>You can emphasize one or more words with the &lt;em&gt; tag, for instance:</p>
+    <pre>This is a really &lt;em&gt;interesting&lt;/em&gt; topic!</pre>
+    <h2>Adding interest to your pages with images</h2>
+    <p>Images can be used to make your Web pages distinctive and greatly help to get your message across. The simple way to add an image is using the &lt;img&gt; tag. Let's assume you have an image file called &quot;peter.jpg&quot; in the same folder/directory as your HTML file. It is 200 pixels wide by 150 pixels high.</p>
+    <pre>&lt;img src=&quot;peter.jpg&quot; width=&quot;200&quot; height=&quot;150&quot;&gt;</pre>
+    <p>The src attribute names the image file. The width and height aren't strictly necessary but help to speed the display of your Web page. Something is still missing! People who can't see the image need a description they can read in its absence. You can add a short description as follows:</p>
+    <pre>&lt;img src=&quot;peter.jpg&quot; width=&quot;200&quot; height=&quot;150&quot; alt=&quot;My friend Peter&quot;&gt;</pre>
+    <p>The alt attribute is used to give the short description, in this case &quot;My friend Peter&quot;. For complex images, you may need to also give a longer description. Assuming this has been written in the file &quot;peter.html&quot;, you can add one as follows using the longdesc attribute:</p>
+    <pre>&lt;img src=&quot;peter.jpg&quot; width=&quot;200&quot; height=&quot;150&quot; alt=&quot;My friend Peter&quot; longdesc=&quot;peter.html&quot;&gt;</pre>
+    <p>You can create images in a number of ways, for instance with a digital camera, by scanning an image in, or creating one with a painting or drawing program. Most browsers understand GIF and JPEG image formats, newer browsers also understand the PNG image format. To avoid long delays while the image is downloaded over the network, you should avoid using large image files.</p>
+    <p>Generally speaking, JPEG is best for photographs and other smoothly varying images, while GIF and PNG are good for graphics art involving flat areas of color, lines and text. All three formats support options for progressive rendering where a crude version of the image is sent first and progressively refined.</p>
+    <h2>Adding links to other pages</h2>
+    <p>What makes the Web so effective is the ability to define links from one page to another, and to follow links at the click of a button. A single click can take you right across the world!</p>
+    <p>Links are defined with the &lt;a&gt; tag. Lets define a link to the page defined in the file &quot;peter.html&quot; in the same folder/directory as the HTML file you are editing:</p>
+    <pre>This a link to &lt;a href=&quot;peter.html&quot;&gt;Peter's page&lt;/a&gt;.</pre>
+    <p>The text between the &lt;a&gt; and the &lt;/a&gt; is used as the caption for the link. It is common for the caption to be in blue underlined text.</p>
+    <p>If the file you are linking to is in a parent folder/directory, you need to put &quot;../&quot; in front of it, for instance:</p>
+    <pre>&lt;a href=&quot;../mary.html&quot;&gt;Mary's page&lt;/a&gt;</pre>
+    <p>If the file you are linking to is in a subdirectory, you need to put the name of the subdirectory followed by a &quot;/&quot; in front of it, for instance:</p>
+    <pre>&lt;a href=&quot;friends/sue.html&quot;&gt;Sue's page&lt;/a&gt;</pre>
+    <p>The use of relative paths allows you to link to a file by walking up and down the tree of directories as needed, for instance:</p>
+    <pre>&lt;a href=&quot;../college/friends/john.html&quot;&gt;John's page&lt;/a&gt;</pre>
+    <p>Which first looks in the parent directory for another directory called &quot;college&quot;, and then at a subdirectory of that named &quot;friends&quot; for a file called &quot;john.html&quot;.</p>
+    <p>To link to a page on another Web site you need to give the full Web address (commonly called a URL), for instance to link to www.w3.org you need to write:</p>
+    <pre>This is a link to &lt;a href=&quot;http://www.w3.org/&quot;&gt;W3C&lt;/a&gt;.</pre>
+    <p>You can turn an image into a hypertext link, for example, the following allows you to click on the company logo to get to the home page:</p>
+    <pre>&lt;a href=&quot;/&quot;&gt;&lt;img src=&quot;logo.gif&quot; alt=&quot;home page&quot;&gt;&lt;/a&gt;</pre>
+    <p>This uses &quot;/&quot; to refer to the root of the directory tree, i.e. the home page.</p>
+    <h2>Three kinds of lists</h2>
+    <p>HTML supports three kinds of lists. The first kind is a bulletted list, often called an <em>unordered list</em>. It uses the &lt;ul&gt; and &lt;li&gt; tags, for instance:</p>
+    <pre>&lt;ul&gt;
+ &lt;li&gt;the first list item&lt;/li&gt;
+  &lt;li&gt;the second list item&lt;/li&gt;
+  &lt;li&gt;the third list item&lt;/li&gt; &lt;/ul&gt;</pre>
+    <p>Note that you always need to end the list with the &lt;/ul&gt; end tag, but that the &lt;/li&gt; is optional and can be left off. The second kind of list is a numbered list, often called an <em> ordered list</em>. It uses the &lt;ol&gt; and &lt;li&gt; tags. For instance:</p>
+    <pre>&lt;ol&gt;
+ &lt;li&gt;the first list item&lt;/li&gt;
+  &lt;li&gt;the second list item&lt;/li&gt;
+  &lt;li&gt;the third list item&lt;/li&gt; &lt;/ol&gt;</pre>
+    <p>Like bulletted lists, you always need to end the list with the &lt;/ol&gt; end tag, but the &lt;/li&gt; end tag is optional and can be left off.</p>
+    <p>The third and final kind of list is the definition list. This allows you to list terms and their definitions. This kind of list starts with a &lt;dl&gt; tag and ends with &lt;/dl&gt; Each term starts with a &lt;dt&gt; tag and each definition starts with a &lt;dd&gt;. For instance:</p>
+    <pre>&lt;dl&gt;
+ &lt;dt&gt;the first term&lt;/dt&gt;
+ &lt;dd&gt;its definition&lt;/dd&gt;
+  &lt;dt&gt;the second term&lt;/dt&gt;
+ &lt;dd&gt;its definition&lt;/dd&gt;
+  &lt;dt&gt;the third term&lt;/dt&gt;
+ &lt;dd&gt;its definition&lt;/dd&gt; &lt;/dl&gt;</pre>
+    <p>The end tags &lt;/dt&gt; and &lt;/dd&gt; are optional and can be left off. Note that lists can be nested, one within another. For instance:</p>
+    <pre>&lt;ol&gt;
+ &lt;li&gt;the first list item&lt;/li&gt;
+  &lt;li&gt;the second list item
+  &lt;ul&gt;
+  &lt;li&gt;first nested item&lt;/li&gt;
+  &lt;li&gt;second nested item&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;/li&gt;
+  &lt;li&gt;the third list item&lt;/li&gt; &lt;/ol&gt;</pre>
+    <p>You can also make use of paragraphs and headings etc. for longer list items.</p>
+    <h2>HTML has a head and a body</h2>
+    <p>If you use your web browser's view source feature (see the View or File menus) you can see the structure of HTML pages. The document generally starts with a declaration of which version of HTML has been used, and is then followed by an &lt;html&gt; tag followed by &lt;head&gt; and at the very end by &lt;/html&gt;. The &lt;html&gt; ... &lt;/html&gt; acts like a container for the document. The &lt;head&gt; ... &lt;/head&gt; contains the title, and information on style sheets and scripts, while the &lt;body&gt; ... &lt;/body&gt; contains the markup with the visible content. Here is a template you can copy and paste into your text editor for creating your own pages:</p>
+    <pre class="template"> &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt; &lt;html&gt; &lt;head&gt;
+ &lt;title&gt; <em>replace with your document's title</em> &lt;/title&gt; &lt;/head&gt; &lt;body&gt;
+<em>replace with your document's content</em>
+&lt;/body&gt; &lt;/html&gt;
+    </pre>
+    <h2>Tidying up your markup</h2>
+    <p>A convenient way to automatically fix markup errors is to use <a href="http://www.w3.org/People/Raggett/tidy/">HTML Tidy</a> which also tidies the markup making it easier to read and easier to edit. I recommend you regularly run Tidy over any markup you are editing. Tidy is very effective at cleaning up markup created by authoring tools with sloppy habits. Tidy is available for a wide range of operating systems from the <a href="http://tidy.sourceforge.net/binaries"> TidyLib Sourceforge site</a>, and has also been integrated into a variety of HTML editing tools.</p>
+    <h4>Getting Further Information</h4>
+    <p>If you are ready to learn more, I have prepared some accompanying material on <a href="HTMLstyles.html">adding a touch of style</a> and <a href="AdvancedHTML.html">advanced HTML</a>.</p>
+  </div>
+  <!-- End id="content_main" -->
+  <div class="clearfloat"></div>
+  <div id="footer">
+    <!-- End id="footer_right" -->
+    <div id="footer_content">Copyright &copy; Calvary Academics, 1997-2014</div>
+  </div>
+  <!-- End id="footer" -->
+</div>
+<!-- End id="main_container" -->
+</body>
+</html>

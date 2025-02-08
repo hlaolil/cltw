@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Calvary Life Tutors — Resource Web Pages for the Course</title>
+<meta http-equiv="KEYWORDS" content="To know more and experience a deeper life in your spiritual walk with God."/>
+<meta http-equiv="DESCRIPTION" content="Calvary Life Tutors provide an e-learning platform for mentoring Christians in higher education. Learners improve themselves through attaining skills and knowledge relevant to their calling."/>
+<link href="../../../css/style_calvary_wide.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div id="main_container">
+  <div id="mainlogo_top_left"></div>
+  <div id="mainlogo_top_right"></div>
+  <div id="mainlogo_top_center"></div>
+  <div class="clearfloat"></div>
+  <div id="navbarv">
+    <ul>
+      <!-- 1 -->
+	  	  <br /><br />
+      <li><a href="../../11 CHB1/The_Godhead.html">Theme</a></li>
+      <li><a href="../Godhead 11/lecture.html">Lect</a></li>
+      <li><a href="../Godhead 11/web_list.html">Webs</a></li>
+    </ul>
+    <!-- 1 -->
+  </div>
+  <!-- End id="navbarv" -->
+  <div id="content_side">
+        <div id="navarrows"><a href="web_list.html"><img src="../../../images/layout/back.gif" width="16" height="16" alt="Go to Web List" /></a><a href="lecture.html"><img src="../../../images/layout/next.gif" width="16" height="16" alt="Go to Lecture Menu" /></a>
+        </div><!-- End id="navarrows" -->
+    </div><!-- End id="content_side" -->
+   <div id="content_main"><br />
+   
+  
+ 
+<h1>
+A Living Sacrifice
+</h1>
+<p>
+What does it mean to present our bodies as a living sacrifice?<br>
+Being a living sacrifice to God is mentioned in the book of Romans, chapter 12. The apostle Paul, in the very first verse of the chapter, states what it means to be a true servant of the Eternal. He says that believers should present their bodies to God as a holy, acceptable,<font size="+1"> LIVING</font> sacrifice to him. Doing this, Paul goes on to state, is our reasonable response to all that our Father had done for us.</p>
+<p>
+There are a number of ways this question could be answered. To be brief, I will simply contrast the idea of being a living sacrifice to God with two other kinds of sacrifices: one to a pagan false god and the other to God based on his Old Testament law.</p>
+<h3>
+Pagan religion
+</h3>
+<p>
+In the non-Christian religion of the Roman Empire, some of the temples to pagan deities included such worship practices as temple prostitution.<br> Paul makes a number of references to this in his epistles, mentioning how the Christian converts came out of such worthless practices. With this in mind, we can see that being a living offering to God would mean not taking part in the evil practices of pagan worship, which God hates, but rather doing those things which God wants us to do.</p>
+<h3>
+Old Testament custom
+</h3>
+<p>
+In the Old Testament, the priests of the Temple would offer animals as part of the worship of God, cutting them up and offering them on the altar. <br>Paul does tell us, however, that God would prefer that<font size="+1"> WE</font> become a sacrifice while we still live, which is far greater. In fact, even under the Old Covenant God considered obedience to be far better and of greater value to Him than any offering of animals (1Sam 15:22-23, Psa 40:6-8, Amos 5:21-24).</p>
+<h3>
+Christian custom
+</h3>
+<p>
+God wants us to lay ourselves aside daily, dedicating ourselves to him and His way of life. The rest of Rom 12 gives us some examples of how we can sacrifice ourselves on a daily basis. Below are just a few of them.</p>
+<p>
+How can we achieve more spiritual maturity?<br>
+<dr class="alt5">Do not be conformed to this evil world (Rom 12:2)</dr class="alt5">.</p>
+ <p>
+How can we become successful at overcoming?<br>
+<dr class="alt5">Be transformed by a renewing of your mind (Rom 12:2)</dr class="alt5">.</p>
+ <p>
+What does the Bible say about <font size="+1">LOVE</font>? <br>
+<dr class="alt5">Do not pretend to love, but out of sincerity do so as Jesus loved us (Rom 12:9)</dr class="alt5">.</p>
+ <p>
+Should believers engage in spiritual warfare?<br>
+<dr class="alt5">Reject evil and hold fast to what is right and good (Rom 12:9)</dr class="alt5">.</p>
+ <p>
+How can people in church be encouraged to serve more?<br>
+<dr class="alt5">Do not be vain and self-centred but in humility serve others with whatever gifts God has given you (Rom 12:3-8)</dr class="alt5">.
+<dr class="alt5">Serve others based on <font size="+1">THEIR</font> needs not yours (Rom 12:15)</dr class="alt5">.</p>
+ <p>
+<dr class="alt5">Prove what is that good and acceptable and perfect will of God (Rom 12:2)<dr class="alt5">.</p>
+<p>
+In conclusion, rather than giving our physical life as a one-time offering (like an animal at Jerusalem's temple), Christians are to offer themselves daily to serve God and love their fellow man. We do this not by being self-centred - doing things just to please our own wills - but by being focused on benefiting and blessing others.</p> 
+<p>As believers offer themselves in this way each day they become more and more like God -<dr class="alt5"> Therefore you shall be perfect, just as your Father in heaven is perfect. (Matt 5:48)</dr class="alt5">. </p>
+   
+</div>
+  <!-- End id="content_main" -->
+  <div class="clearfloat"></div>
+  <div id="footer">
+    <!-- End id="footer_right" -->
+    <div id="footer_content">Copyright &copy; Calvary Academics, 1997-2014</div>
+  </div>
+  <!-- End id="footer" -->
+</div>
+<!-- End id="main_container" -->
+</body>
+</html>
