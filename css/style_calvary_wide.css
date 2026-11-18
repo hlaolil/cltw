@@ -1,5 +1,16 @@
 @charset "utf-8";
-@import url("layouts/layoutcalvmain.css");
-@import url("colourshemes/colorschemecalvmain.css");
-@import url("colourshemes/colorschemecalv2.css");
-/* Because the browser responds to the last rule specified, any conflict are resolved by the subsequent style sheet taking precedence.*/
+/* Calvary Academics theme. Layout and components live in modern.css.
+   The original sheets in layouts/ and colourshemes/ are kept for reference. */
+@import url("modern.css");
+
+:root {
+  --site-name: "Calvary Academics";
+  --site-tagline: "Utilising Advanced e-Learning Technology";
+  --brand: #1b4f8a;
+  --brand-deep: #10325a;
+  --header-bg: #123a66;
+  --logo-left: url(../images/layout/calvarylogonotext.png);
+  --logo-right: url(../images/layout/crosssmall.png);
+}
+#mainlogo_top_left { box-shadow: none; }
+#mainlogo_top_right { width: 72px; }

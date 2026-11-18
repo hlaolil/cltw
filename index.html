@@ -1,124 +1,229 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="REFRESH" content="0;URL=intro/who_we_are.html">
-<title>Calvary Life Tutors Home Page</title>
-<meta name="Keywords" content="Theology, Bible, Bible School, Bible training, Christian courses, adult education, mentoring, learning, study, studies, certificate, diploma, bachelor, degree, masters, doctorate, pastors, Christian ministry, church management, God, Jesus Christ, Holy, Spirit, correspondence, distance training.">
-<meta name="Description" content="We offer mentored learning for accredited courses in Biblical Christian Ministry. A three year Bachelor of Ministry of Calvary University consists of a Certificate in Ministry and Diploma in Ministry with a five-fold leadership emphasis. Can lead to Master of Ministry and Doctor of Ministry qualification. We do not act on behalf of any other organisation.">
-<link href="css/style_clt.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Calvary Life Tutors – Mentored Ministry Training</title>
+<meta name="description" content="Calvary Life Tutors offers mentored learning for courses in Biblical Christian Ministry through local-church Bible Schools: Certificate, Diploma and Bachelor of Ministry, with pathways to Master and Doctor of Ministry." />
+<meta name="keywords" content="Theology, Bible, Bible School, Bible training, Christian courses, adult education, mentoring, certificate, diploma, bachelor, masters, doctorate, pastors, Christian ministry, distance training" />
+<link rel="icon" href="images/layout/cross.ico" />
+<link href="css/style_clt.css" rel="stylesheet" type="text/css" />
+<style>
+  /* Homepage-only additions on top of css/modern.css */
+  .home #content_main { padding-top: 0; overflow: hidden; }
+  .hero {
+    margin: 0 calc(-1 * clamp(20px, 4vw, 56px)) 36px;
+    padding: clamp(36px, 6vw, 64px) clamp(20px, 4vw, 56px);
+    background:
+      radial-gradient(600px 300px at 95% 110%, rgba(200, 150, 46, .45), transparent 70%),
+      radial-gradient(500px 260px at 0% -20%, rgba(255, 255, 255, .10), transparent 70%),
+      linear-gradient(135deg, #142842, #24497a);
+    color: #fff;
+  }
+  .hero .eyebrow {
+    margin: 0 0 10px; font-size: .8rem; font-weight: 700;
+    letter-spacing: .14em; text-transform: uppercase; color: #f1dcae;
+  }
+  .home #content_main .hero h1 {
+    color: #fff; border: 0; padding: 0; margin: 0 0 14px; max-width: 18ch;
+    font-size: clamp(2rem, 1.4rem + 2.6vw, 3rem);
+  }
+  .hero p.lead { max-width: 56ch; font-size: 1.1rem; color: #e8eef6; margin-bottom: 26px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+  .home #content_main a.btn {
+    display: inline-block; padding: 12px 22px; border-radius: 999px;
+    font-weight: 700; text-decoration: none; transition: transform .15s, background-color .15s;
+  }
+  .home #content_main a.btn:hover { transform: translateY(-1px); }
+  .home #content_main a.btn-primary { background: var(--accent); color: #fff; }
+  .home #content_main a.btn-primary:hover { background: #ad7e1f; }
+  .home #content_main a.btn-ghost { color: #fff; box-shadow: inset 0 0 0 2px rgba(255,255,255,.7); }
+  .home #content_main a.btn-ghost:hover { background: rgba(255,255,255,.12); }
+
+  .stats {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px; margin: 0 0 40px; padding: 0; list-style: none;
+  }
+  .stats li { margin: 0; padding: 16px 18px; background: var(--accent-soft); border-radius: 10px; }
+  .stats li::marker { content: none; }
+  .stats b { display: block; font-family: var(--serif); font-size: 1.6rem; color: var(--brand-deep); line-height: 1.1; }
+  .stats span { font-size: .9rem; color: var(--muted); }
+
+  .cards {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px; margin: 18px 0 40px;
+  }
+  .home #content_main a.card {
+    display: flex; flex-direction: column; gap: 6px;
+    padding: 22px; border: 1px solid var(--line); border-radius: 12px;
+    color: var(--ink); text-decoration: none; font-weight: 400;
+    transition: border-color .15s, box-shadow .15s, transform .15s;
+  }
+  .home #content_main a.card:hover { border-color: var(--accent); box-shadow: var(--shadow); transform: translateY(-2px); }
+  .card strong { font-family: var(--serif); font-size: 1.2rem; color: var(--brand); }
+  .card span { font-size: .95rem; color: var(--muted); line-height: 1.55; }
+  .card em { margin-top: auto; padding-top: 8px; font-style: normal; font-weight: 700; color: var(--link); font-size: .9rem; }
+
+  @media (max-width: 640px) { .cards { grid-template-columns: 1fr; } }
+  .split { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+  .split > div { padding: 22px 24px; border-radius: 12px; background: var(--brand-soft); }
+  .split h3 { margin-top: 0; }
+  .split address { font-style: normal; line-height: 1.7; }
+</style>
 </head>
-<body>
+<body class="home">
 <div id="main_container">
   <div id="header">
     <div id="mainlogo_top_left"></div>
     <div id="mainlogo_top_right"></div>
     <div id="mainlogo_top_center"></div>
-    <div class="clearfloat"></div>
   </div>
-  <!-- End id="header" -->
-  <div id="navbarv">
+
+  <nav id="navbarv" aria-label="Main">
     <ul>
-      <!-- 1 -->
       <li>
         <h6>Main pages:</h6>
         <ul>
-          <!-- 2 -->
           <li><a href="intro/who_we_are.html">Introduction</a>
             <ul>
-              <!-- 3 -->
-              <li><a href="intro/who_we_are.html">Who we are</a> </li>
-              <li><a href="intro/about_ca.html">About Calvary</a> </li>
-              <li><a href="intro/character.html">Our Character</a> </li>
-              <li><a href="intro/principles.html">Calvary Principles</a> </li>
-              <li><a href="intro/creed.html">Guiding Principles</a> </li>
-              <li><a href="intro/stafaith.html">Statement of Faith</a> </li>
-              <li><a href="intro/philosophy.html">Our Philosophy</a> </li>
+              <li><a href="intro/who_we_are.html">Who we are</a></li>
+              <li><a href="intro/about_ca.html">About Calvary</a></li>
+              <li><a href="intro/character.html">Our Character</a></li>
+              <li><a href="intro/principles.html">Calvary Principles</a></li>
+              <li><a href="intro/creed.html">Guiding Principles</a></li>
+              <li><a href="intro/stafaith.html">Statement of Faith</a></li>
+              <li><a href="intro/philosophy.html">Our Philosophy</a></li>
               <li><a href="intro/departments.html">CU Departments</a></li>
-              <li><a href="intro/hist_synopsis.html">Historical Synopsis</a> </li>
-              <li><a href="intro/accred.html">Accreditation</a> </li>
-              <li><a href="intro/standards.html">Accred. Standards</a> </li>
+              <li><a href="intro/hist_synopsis.html">Historical Synopsis</a></li>
+              <li><a href="intro/accred.html">Accreditation</a></li>
+              <li><a href="intro/standards.html">Accreditation Standards</a></li>
             </ul>
-            <!-- 3 -->
           </li>
           <li><a href="bible_schools/starting_tc.html">Bible Schools</a>
             <ul>
-              <!-- 3 -->
-              <li><a href="bible_schools/tc_reg.html">TC Registration</a> </li>
-              <li><a href="bible_schools/gallery_doc.html">Docmnts &amp; Forms</a> </li>
-              <li><a href="bible_schools/starting_tc.html">Starting a Centre</a> </li>
-              <li><a href="bible_schools/dean.html">Dean's Documents</a> </li>
-              <li><a href="bible_schools/gradual_learning.html">Gradual Learning</a> </li>
-              <li><a href="bible_schools/practical_emphasis.html">Practical Emphasis</a> </li>
-              <li><a href="bible_schools/ca_curriculum.html">Calvary Courses</a> </li>
-              <li><a href="bible_schools/academic_tutor.html">Academic Tutor</a> </li>
-              <li><a href="bible_schools/tc_list.html">List of Bib. Schools</a> </li>
-              <li><a href="bible_schools/agreement.html">Centre Agreement</a> </li>
-              <li><a href="bible_schools/newsletters.html">News Letters</a> </li>
-              <li><a href="bible_schools/faqs.html">Frequent Questions</a> </li>
+              <li><a href="bible_schools/tc_reg.html">Centre Registration</a></li>
+              <li><a href="bible_schools/gallery_doc.html">Documents &amp; Forms</a></li>
+              <li><a href="bible_schools/starting_tc.html">Starting a Centre</a></li>
+              <li><a href="bible_schools/dean.html">Dean's Documents</a></li>
+              <li><a href="bible_schools/gradual_learning.html">Gradual Learning</a></li>
+              <li><a href="bible_schools/practical_emphasis.html">Practical Emphasis</a></li>
+              <li><a href="bible_schools/ca_curriculum.html">Calvary Courses</a></li>
+              <li><a href="bible_schools/academic_tutor.html">Academic Tutor</a></li>
+              <li><a href="bible_schools/tc_list.html">List of Bible Schools</a></li>
+              <li><a href="bible_schools/agreement.html">Centre Agreement</a></li>
+              <li><a href="bible_schools/newsletters.html">Newsletters</a></li>
+              <li><a href="bible_schools/faqs.html">Frequent Questions</a></li>
             </ul>
-            <!-- 3 -->
           </li>
           <li><a href="student_info/skills_introduction.html">Student Info</a>
             <ul>
-              <!-- 3 -->
-              <li><a href="student_info/skills_introduction.html">Course Intro</a> </li>
-              <li><a href="student_info/method_of _study.html">Method of Study</a> </li>
-              <li><a href="student_info/receive_credits.html">Receive Credits</a> </li>
-              <li><a href="student_info/distance_learning.html">e-Course Learning</a> </li>
-              <li><a href="student_info/format_of_learning.html">Format of Learning</a> </li>
-              <li><a href="student_info/course_purpose.html">Purpose of Course</a> </li>
-              <li><a href="student_info/assessments.html">Assessment Method</a> </li>
-              <li><a href="student_info/prospectus.html">Student Prospectus</a> </li>
-              <li><a href="student_info/mentoring_fees.html">Mentoring Fees</a> </li>
-              <li><a href="student_info/student_reg.html">Student Registr.</a> </li>
-              <li><a href="student_info/alone_with_god.html">Alone with God</a> </li>
-              <li><a href="student_info/cl_balance_sheet.html">Spiritual Balance</a> </li>
+              <li><a href="student_info/skills_introduction.html">Course Intro</a></li>
+              <li><a href="student_info/method_of _study.html">Method of Study</a></li>
+              <li><a href="student_info/receive_credits.html">Receive Credits</a></li>
+              <li><a href="student_info/distance_learning.html">e-Course Learning</a></li>
+              <li><a href="student_info/format_of_learning.html">Format of Learning</a></li>
+              <li><a href="student_info/course_purpose.html">Purpose of Course</a></li>
+              <li><a href="student_info/assessments.html">Assessment Method</a></li>
+              <li><a href="student_info/prospectus.html">Student Prospectus</a></li>
+              <li><a href="student_info/mentoring_fees.html">Mentoring Fees</a></li>
+              <li><a href="student_info/student_reg.html">Student Registration</a></li>
+              <li><a href="student_info/alone_with_god.html">Alone with God</a></li>
+              <li><a href="student_info/cl_balance_sheet.html">Spiritual Balance</a></li>
             </ul>
-            <!-- 3 -->
           </li>
           <li><a href="study_resources/ca_resources.html">Study Resources</a>
             <ul>
-              <!-- 3 -->
-              <li><a href="study_resources/ca_resources.html">Calvary Resources</a> </li>
-              <li><a href="study_resources/suport_resources.html">Learning Support</a> </li>
-              <li><a href="study_resources/external_sites.html">Useful Websites</a> </li>
-              <li><a href="study_resources/external_writing_support.html">Writing Support</a> </li>
-              <li><a href="study_resources/resource_downloads.html">Web Downloads</a> </li>
-              <li><a href="study_resources/study_tips.html">Study Methods</a> </li>
-              <li><a href="study_resources/others.html">External Resources</a> </li>
-              <li><a href="study_resources/grad_docs.html">Graduate Docs</a> </li>
-              <li><a href="study_resources/postgrad_info.html">Postgrad Info</a> </li>
-              <li><a href="study_resources/postgrad_support.html">Postgrad Support</a> </li>
-              <li><a href="study_resources/critical_thinking.html">Critical Thinking</a> </li>
-              <li><a href="study_resources/dissertation_thesis_faqs.html">Dissertn or Thesis</a> </li>
+              <li><a href="study_resources/ca_resources.html">Calvary Resources</a></li>
+              <li><a href="study_resources/suport_resources.html">Learning Support</a></li>
+              <li><a href="study_resources/external_sites.html">Useful Websites</a></li>
+              <li><a href="study_resources/external_writing_support.html">Writing Support</a></li>
+              <li><a href="study_resources/resource_downloads.html">Web Downloads</a></li>
+              <li><a href="study_resources/study_tips.html">Study Methods</a></li>
+              <li><a href="study_resources/others.html">External Resources</a></li>
+              <li><a href="study_resources/grad_docs.html">Graduate Docs</a></li>
+              <li><a href="study_resources/postgrad_info.html">Postgrad Info</a></li>
+              <li><a href="study_resources/postgrad_support.html">Postgrad Support</a></li>
+              <li><a href="study_resources/critical_thinking.html">Critical Thinking</a></li>
+              <li><a href="study_resources/dissertation_thesis_faqs.html">Dissertation or Thesis</a></li>
             </ul>
-            <!-- 3 -->
           </li>
+          <li><a href="cal_acad/programmes.html" class="course">Programmes</a></li>
         </ul>
-        <!-- 2 -->
       </li>
     </ul>
-    <!-- 1 -->
-  </div>
-  <!-- End id="navbarv" -->
-    
-    <!-- End id="navarrows"  -->
-    
-    <!-- End id="content_side" -->
-  <div id="content_main">
-  
-    <div class="clearfloat"></div>
-  </div>
-  <!-- End id="content_main" -->
-  <div id="footer">
-    
-    <!-- End id="footer_right" -->
-    <div id="footer_content">Copyright &copy; Calvary Life Tutors, 2011 (For personal use only, not for publication or resale)</div>
-    <!-- End id="footer_content" -->
-    <div class="clearfloat"></div>
-  </div>
-  <!-- End id="footer" -->
+  </nav>
+
+  <main id="content_main">
+    <section class="hero">
+      <p class="eyebrow">Mentoring Centre for Ministry and Divinity · Since 1984</p>
+      <h1>Training the local church for the Great Commission</h1>
+      <p class="lead">Calvary Life Tutors provides course material and personal mentoring so that churches can train their members to know the Word of God, live it, communicate it and defend it.</p>
+      <div class="btns">
+        <a class="btn btn-primary" href="cal_acad/programmes.html">Explore programmes</a>
+        <a class="btn btn-ghost" href="bible_schools/starting_tc.html">Start a Bible School</a>
+      </div>
+    </section>
+
+    <ul class="stats">
+      <li><b>1984</b><span>Serving the local church</span></li>
+      <li><b>80</b><span>Credits per course phase</span></li>
+      <li><b>5-fold</b><span>Leadership emphasis</span></li>
+      <li><b>e-Learning</b><span>Study anywhere, mentored</span></li>
+    </ul>
+
+    <h2>Find your way</h2>
+    <div class="cards">
+      <a class="card" href="intro/who_we_are.html">
+        <strong>Who we are</strong>
+        <span>Our history, character, statement of faith and the philosophy behind mentored learning.</span>
+        <em>Read the introduction →</em>
+      </a>
+      <a class="card" href="bible_schools/starting_tc.html">
+        <strong>Bible Schools</strong>
+        <span>Start a tuition centre in your church: registration, agreements, dean's documents and forms.</span>
+        <em>Start a centre →</em>
+      </a>
+      <a class="card" href="student_info/skills_introduction.html">
+        <strong>Student information</strong>
+        <span>How the course works, method of study, assessments, fees and how to register.</span>
+        <em>For students →</em>
+      </a>
+      <a class="card" href="study_resources/ca_resources.html">
+        <strong>Study resources</strong>
+        <span>Study methods, writing support, critical thinking and postgraduate guidance.</span>
+        <em>Browse resources →</em>
+      </a>
+    </div>
+
+    <h2>What we offer</h2>
+    <p>Calvary Life Tutors offers material and mentoring for short courses — the Certificate in Christian Discipleship, Diploma in Leadership, Advanced Diploma in Ministry and Higher Diploma in Shepherding — and for students registered for a Bachelor of Ministry. Courses are offered by Bible Schools (tuition centres) in phases of 80 credits each.</p>
+    <p class="crb">To earn a formal qualification, students present their CLT credits for <b>Recognition of Prior Learning (RPL)</b> at an RPL institution. CLT courses themselves are unaccredited short courses.</p>
+    <p>We serve Evangelical, Charismatic and Pentecostal churches and hold to the fundamental principles of Christian doctrine. See our <a href="intro/stafaith.html">Statement of Faith</a>.</p>
+
+    <h4>Decentralised on purpose, everywhere by command</h4>
+
+    <div class="split">
+      <div>
+        <h3>Contact us</h3>
+        <address>
+          Calvary Life Tutors<br />
+          P.O. Box 13468<br />
+          0129 Sinoville, Pretoria<br />
+          South Africa<br />
+          <a href="mailto:mail@clt.org.za?subject=Interested%20in%20a%20Ministry%20course">mail@clt.org.za</a>
+        </address>
+      </div>
+      <div>
+        <h3>Latest news</h3>
+        <p>We publish the latest Bible School information in our monthly newsletter.</p>
+        <p><a href="bible_schools/newsletters.html">Read newsletters from 2010 to the latest →</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div id="footer_content">Copyright &copy; Calvary Life Tutors (for personal use only, not for publication or resale)</div>
+  </footer>
 </div>
-<!-- End id="main_container" -->
 </body>
 </html>

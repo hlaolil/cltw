@@ -1,3 +1,11 @@
 @charset "utf-8";
-@import url("layouts/layoutcltmain.css");
-@import url("colourshemes/colorschemecltmain.css");
+/* Calvary Life Tutors theme. Layout and components live in modern.css.
+   The original sheets in layouts/ and colourshemes/ are kept for reference. */
+@import url("modern.css");
+
+:root {
+  --site-name: "Calvary Life Tutors";
+  --site-tagline: "Utilising Advanced e-Learning Technology";
+  --logo-left: url(../images/layout/eagleswingcross.jpg);
+  --logo-right: url(../images/layout/CLT_Logo_Colour.png);
+}
